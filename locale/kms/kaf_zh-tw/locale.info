@@ -1,0 +1,8 @@
+id = "kaf_zh-tw"
+adminName = "Chinese (traditional) - zh-Hant - 正體字/繁體字"
+clientName = "正體字/繁體字"
+code = "zh_TW, zh_Hant, zh_tw"
+type = "default"
+icon = "zh-flag"
+profile = "KAF"
+zipDirName = "Chinese_traditional_KAF"

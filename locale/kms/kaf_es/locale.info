@@ -1,0 +1,8 @@
+id = "kaf_es"
+adminName = "Spanish - es - Español"
+clientName = "Español"
+code = "es, es_ES"
+type = "default"
+icon = "es-flag"
+profile = "KAF"
+zipDirName = "Spanish_KAF"

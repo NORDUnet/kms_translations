@@ -1,0 +1,8 @@
+id = "kaf_nl"
+adminName = "Dutch - nl - Nederlands"
+clientName = "Nederlands"
+code = "nl"
+type = "default"
+icon = "nl-flag"
+profile = "KAF"
+zipDirName = "Dutch_KAF"

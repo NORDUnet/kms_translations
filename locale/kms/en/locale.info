@@ -1,0 +1,8 @@
+id = "en"
+adminName = "English - en"
+clientName = "English"
+code = "en"
+type = "default"
+icon = "en-flag"
+profile = "MediaSpace"
+zipDirName = "English"

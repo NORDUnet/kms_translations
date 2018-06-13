@@ -1,0 +1,8 @@
+id = "fr"
+adminName = "French - fr - Français"
+clientName = "Français"
+code = "fr"
+type = "default"
+icon = "fr-flag"
+profile = "MediaSpace"
+zipDirName = "French"

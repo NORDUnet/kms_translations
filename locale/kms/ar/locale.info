@@ -1,0 +1,8 @@
+id = "ar"
+adminName = "Arabic - ar - العربية"
+clientName = "العربية"
+code = "ar"
+type = "default"
+icon = "ar-flag"
+profile = "MediaSpace"
+zipDirName = "Arabic"

@@ -1,0 +1,8 @@
+id = "ru"
+adminName = "Russian - ru - русский"
+clientName = "русский"
+code = "ru"
+type = "default"
+icon = "ru-flag"
+profile = "MediaSpace"
+zipDirName = "Russian"

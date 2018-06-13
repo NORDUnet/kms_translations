@@ -1,0 +1,8 @@
+id = "ko"
+adminName = "Korean - ko - 한국인"
+clientName = "한국인"
+code = "ko"
+type = "default"
+icon = "ko-flag"
+profile = "MediaSpace"
+zipDirName = "Korean"

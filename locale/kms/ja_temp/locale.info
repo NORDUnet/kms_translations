@@ -1,0 +1,8 @@
+id = "ja_temp"
+adminName = "Japanese - ja - 日本語"
+clientName = "日本語"
+code = "ja"
+type = "default"
+icon = "jp-flag"
+profile = "MediaSpace"
+zipDirName = "Japanese"

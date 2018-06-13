@@ -1,0 +1,8 @@
+id = "kaf_pt-br"
+adminName = "Portuguese (Brazilian) - pt-br - Português"
+clientName = "Português"
+code = "pt-br, pt_BR"
+type = "default"
+icon = "pt-br-flag"
+profile = "KAF"
+vzipDirName = "Portuguese_KAF"

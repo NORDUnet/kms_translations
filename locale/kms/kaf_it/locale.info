@@ -1,0 +1,8 @@
+id = "it"
+adminName = "Italian - it - italiano"
+clientName = "italiano"
+code = "it"
+type = "default"
+icon = "it-flag"
+profile = "KAF"
+zipDirName = "Italian_KAF"

@@ -1,0 +1,8 @@
+id = "sr"
+adminName = "Serbian - sr - српски"
+clientName = "српски"
+code = "sr"
+type = "default"
+icon = "sr-flag"
+profile = "MediaSpace"
+zipDirName = "Serbian"

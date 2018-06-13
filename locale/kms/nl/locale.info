@@ -1,0 +1,8 @@
+id = "nl"
+adminName = "Dutch - nl - Nederlands"
+clientName = "Nederlands"
+code = "nl"
+type = "default"
+icon = "nl-flag"
+profile = "MediaSpace"
+zipDirName = "Dutch"

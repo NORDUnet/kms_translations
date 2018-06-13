@@ -1,0 +1,8 @@
+id = "pt-br"
+adminName = "Portuguese (Brazilian) - pt-br - Português"
+clientName = "Português"
+code = "pt-br"
+type = "default"
+icon = "pt-br-flag"
+profile = "MediaSpace"
+zipDirName = "Portuguese"

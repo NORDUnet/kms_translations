@@ -1,0 +1,8 @@
+id = "kaf_ja"
+adminName = "Japanese - ja - 日本人"
+clientName = "日本人"
+code = "ja, jp"
+type = "default"
+icon = "jp-flag"
+profile = "KAF"
+zipDirName = "Japanese_KAF"

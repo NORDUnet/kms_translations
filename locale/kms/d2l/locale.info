@@ -1,0 +1,8 @@
+id = "d2l"
+adminName = "KAF Based Application"
+clientName = "English"
+code = "en"
+type = "default"
+icon = "en-flag"
+profile = "KAF"
+zipDirName = "English_KAF"

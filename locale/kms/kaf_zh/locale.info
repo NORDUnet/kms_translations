@@ -1,0 +1,8 @@
+id = "kaf_zh"
+adminName = "Chinese (simplified) - zh-Hans - 中国"
+clientName = "中国"
+code = "zh, zh_Hans, zh_cn"
+type = "default"
+icon = "zh-flag"
+profile = "KAF"
+zipDirName = "Chinese_simplified_KAF"

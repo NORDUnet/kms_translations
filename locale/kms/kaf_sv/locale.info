@@ -1,0 +1,8 @@
+id = "sv"
+adminName = "Swedish - sv - svenska"
+clientName = "svenska"
+code = "sv"
+type = "default"
+icon = "sv-flag"
+profile = "KAF"
+zipDirName = "Swedish_KAF"
