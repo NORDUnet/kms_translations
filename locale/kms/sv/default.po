@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: KMS 5.44.01\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-02 10:20+0300\n"
-"PO-Revision-Date: 2017-08-02 10:20+0300\n"
+"PO-Revision-Date: 2018-06-20 14:29+0200\n"
 "Last-Translator: Ziv Hundert <ziv.hundert@kaltura.com>\n"
 "Language-Team: \n"
-"Language: en\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: translate;plural:1,2;translatePlural:1,2\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.0.8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: application\n"
 "X-Poedit-SearchPath-1: modules\n"
@@ -25,12 +25,12 @@ msgstr ""
 
 #: application/controllers/AdminController.php:210
 msgid "Add New User"
-msgstr "Lägg till Ny Användare"
+msgstr "Lägg till ny användare"
 
 #: application/controllers/AdminController.php:265
 #: application/views/scripts/admin/user-list.phtml:78
 msgid "Edit User"
-msgstr "Redigera Användare"
+msgstr "Redigera användare"
 
 #: application/controllers/AdminController.php:296
 msgid "Are you sure you want to delete"
@@ -42,7 +42,7 @@ msgstr "användare"
 
 #: application/controllers/AdminController.php:297
 msgid "users were deleted successfully"
-msgstr "användare raderades korrekt"
+msgstr "användare raderades framgångsrikt"
 
 #: application/controllers/AdminController.php:301
 msgid "Are you sure you want to delete the user"
@@ -54,7 +54,7 @@ msgstr "Användaren"
 
 #: application/controllers/AdminController.php:302
 msgid "was deleted successfully"
-msgstr "raderades korrekt"
+msgstr "raderades framgångsrikt"
 
 #: application/controllers/AdminController.php:352
 msgid "Passwords do not match"
@@ -67,7 +67,7 @@ msgstr "Användaren"
 
 #: application/controllers/AdminController.php:374
 msgid "was added successfully"
-msgstr "lades till korrekt"
+msgstr "lades till framgångsrikt"
 
 #: application/controllers/AdminController.php:383
 msgid "This User ID is taken. Please choose another"
@@ -81,30 +81,30 @@ msgstr ""
 
 #: application/controllers/AdminController.php:402
 msgid "was saved successfully"
-msgstr "har sparats korrekt"
+msgstr "har sparats framgångsrikt"
 
 #: application/controllers/AdminController.php:470
 #: application/controllers/AdminController.php:471
 msgid "User Management"
-msgstr "Användaradministrering"
+msgstr "Administrering av användare"
 
 #: application/controllers/AdminController.php:550
 msgid "Submit Users CSV"
-msgstr "Skicka Användares CSV"
+msgstr "Skicka användares CSV"
 
 #: application/controllers/AdminController.php:566
 msgid ""
 "The CSV was submitted. You can track the progress of your import from "
 "Kaltura Management Console (KMC)"
 msgstr ""
-"CSV'en skickades. Du kan spåra din imports utveckling från Kaltura "
-"Management Console (KMC)"
+"CSV'en skickades. Du kan följa importprocessen från Kaltura Management "
+"Console (KMC)"
 
 #: application/controllers/AdminController.php:572
 #: modulesCustom/core/recscheduling/controllers/AdminController.php:94
 #: modulesCustom/core/recscheduling/controllers/AdminController.php:102
 msgid "! Failed to submit CSV !"
-msgstr "! Misslyckades att skicka CSV!"
+msgstr "Misslyckades att skicka CSV!"
 
 #: application/controllers/AdminController.php:620
 msgid "The config file"
@@ -122,7 +122,7 @@ msgstr "Spara är inaktiverat"
 #: application/controllers/AdminController.php:639
 #: application/controllers/AdminController.php:1098
 msgid "Configuration Management"
-msgstr "Konfigureringsadminstration"
+msgstr "Administration av konfigurering"
 
 #: application/controllers/AdminController.php:722
 #: application/controllers/AdminController.php:1100
@@ -131,15 +131,15 @@ msgstr "Konfiguration sparad"
 
 #: application/controllers/AdminController.php:727
 msgid "Error saving configuration - invalid URL schema"
-msgstr "Fel uppstod när konfigurationen sparades - ogiltigt URL-schema"
+msgstr "Fel uppstod när konfigurationen sparades - ogiltigt URL-format"
 
 #: application/controllers/AdminController.php:729
 msgid "schema must be http or https"
-msgstr "schema måste vara http eller https"
+msgstr "protokoll måste vara http eller https"
 
 #: application/controllers/AdminController.php:730
 msgid "Please correct the schema and save the configuration."
-msgstr "Korrigera schema och spara konfigurationen."
+msgstr "Korrigera format och spara konfigurationen."
 
 #: application/controllers/AdminController.php:741
 msgid "Please refresh the page and try again."
@@ -178,7 +178,7 @@ msgstr "Din konfigurering för \"%1\" sparades."
 
 #: application/controllers/AdminController.php:827
 msgid "The cache was cleared"
-msgstr "Cachen tömdes."
+msgstr "Cachen tömdes"
 
 #: application/controllers/AdminController.php:829
 msgid "We saved a backup file of your configuration under \"%1\"."
@@ -217,7 +217,7 @@ msgstr "Töm cache"
 
 #: application/controllers/AdminController.php:940
 msgid "Log File Viewer"
-msgstr "Logg filöversikt"
+msgstr "Översikt Loggfiler"
 
 #: application/controllers/AdminController.php:1068
 msgid "Kaltura MediaSpace&trade; Configuration"
@@ -246,7 +246,7 @@ msgstr "Du kanske vill försöka igen med en annan fil?"
 #: application/controllers/AdminController.php:1162
 #: modulesCustom/core/recscheduling/controllers/AdminController.php:129
 msgid "maximum one file expected"
-msgstr "maximalt en fil väntar"
+msgstr "förväntade maximalt en fil"
 
 #: application/controllers/AdminController.php:1319
 msgid "Enter user id or name"
@@ -324,7 +324,7 @@ msgstr "Laddar"
 #: modules/attachments/controllers/IndexController.php:105
 #: modules/downloadmedia/controllers/IndexController.php:94
 msgid "The information was saved successfully"
-msgstr "Informationen har sparats korrekt"
+msgstr "Informationen har sparats framgångsrikt"
 
 #: application/controllers/ChannelsController.php:525
 msgid ""
@@ -391,11 +391,11 @@ msgstr "Samarbete"
 
 #: application/controllers/EntryController.php:366
 msgid "Owner change failed, please try again."
-msgstr "Ägarändring misslyckades, var god försök igen."
+msgstr "Ändringar av ägarskap misslyckades, var god försök igen."
 
 #: application/controllers/EntryController.php:780
 msgid "You must choose entries to delete."
-msgstr "Du måste välja inlägg som ska raderas."
+msgstr "Du måste välja minst ett inlägg som ska raderas."
 
 #: application/controllers/EntryController.php:837
 msgid " (You are not allowed to delete other %1 entries)"
@@ -403,11 +403,11 @@ msgstr " (Du är inte behörig att radera andra %1 inlägg)"
 
 #: application/controllers/EntryController.php:860
 msgid "Successfully deleted %1 items!"
-msgstr "%1 föremål har raderats korrekt!"
+msgstr "%1 föremål har raderats framgångsrikt!"
 
 #: application/controllers/EntryController.php:882
 msgid "Successfully deleted \"%1\""
-msgstr "\"%1\" raderades korrekt"
+msgstr "Raderade framgångsrikt ”%1”"
 
 #: application/controllers/EntryController.php:980
 #: library/Kms/View/Helper/FormFileUpload.php:83
@@ -428,7 +428,7 @@ msgstr "Välj en annan fil"
 #: modules/entryTypes/videopresentations/controllers/EntryController.php:120
 #: modules/entryTypes/quiz/views/scripts/partials/browseTable.phtml:59
 msgid "Upload Media"
-msgstr "Ladda upp Media"
+msgstr "Ladda upp mediafil (video- eller ljudfil)"
 
 #: application/controllers/EntryController.php:984
 #: modules/entryTypes/videopresentations/controllers/EntryController.php:120
@@ -441,7 +441,7 @@ msgstr "Användaren är redan en medarbetare."
 
 #: application/controllers/EntryController.php:1167
 msgid "User was not found or is not eligible, choose a valid one."
-msgstr "Användaren hittades inte, eller är inte valbar, välj en som är giltig."
+msgstr "Användaren hittades inte, eller är inte valbar. Välj en som är giltig."
 
 #: application/controllers/EntryController.php:1171
 #: application/views/scripts/partials/entry/edit/addCollaboratorForm.phtml:5
@@ -476,7 +476,7 @@ msgid ""
 "The instanceId provided is already in use. Check the \"force use instanceId"
 "\" or provide another ID"
 msgstr ""
-"Givet exempel-id används redan. Kontrollera \"kräv användning av exempel-id"
+"Givet instans-id används redan. Kontrollera \"kräv användning av instans-id"
 "\" eller uppge ett annat ID"
 
 #: application/controllers/InstallController.php:147
@@ -493,19 +493,19 @@ msgstr "KMS KB - gränssnitt"
 
 #: application/controllers/LocalizationController.php:53
 msgid "Select a locale file:"
-msgstr "Välj en lokal fil:"
+msgstr "Välj en språkfil:"
 
 #: application/controllers/LocalizationController.php:54
 msgid "Upload locale file"
-msgstr "Ladda upp en lokal fil"
+msgstr "Ladda upp en språkfil"
 
 #: application/controllers/LocalizationController.php:63
 msgid "Select a locale icon:"
-msgstr "Välj en lokal ikon:"
+msgstr "Välj en språkikon:"
 
 #: application/controllers/LocalizationController.php:64
 msgid "Upload locale icon"
-msgstr "Ladda upp en lokal ikon"
+msgstr "Ladda upp en språkikon"
 
 #: application/controllers/PlaylistController.php:69
 msgid "Playlist successfully updated"
@@ -557,11 +557,11 @@ msgstr "kategorier som har text i namnet eller i beskrivningen"
 
 #: application/controllers/UpgradeController.php:25
 msgid "This instance does not require upgrade at this time"
-msgstr "Den här begäran kräver inte uppgradering just nu"
+msgstr "Den här instansen kräver inte uppgradering just nu"
 
 #: application/controllers/UpgradeController.php:144
 msgid "Upgrade Error"
-msgstr "Uppgradera fel"
+msgstr "Fel vid uppgradering"
 
 #: application/controllers/UserController.php:95
 #: application/controllers/UserController.php:257
@@ -571,7 +571,7 @@ msgstr "Fel vid autentisering. Aut adapter %1 existerar inte!"
 #: application/controllers/UserController.php:153
 #: application/controllers/UserController.php:359
 msgid "The Redirect URL %1 is invalid"
-msgstr "Omdirigerings URL %1 är ogiltig"
+msgstr "Omdirigerings-URL %1 är ogiltig"
 
 #: application/controllers/UserController.php:328
 msgid "Invalid Username/Password provided"
@@ -596,7 +596,7 @@ msgstr "Sök i min media"
 #: application/controllers/UserController.php:526
 #: library/Kms/View/Helper/EntryActions.php:88
 msgid "Delete all selected media items"
-msgstr "Radera alla markerade mediaföremål"
+msgstr "Radera alla markerade mediafiler"
 
 #: application/forms/AdvancedSearchByMetadata.php:34
 msgid "Search for.."
@@ -604,7 +604,7 @@ msgstr "Sök efter..."
 
 #: application/forms/AdvancedSearchByMetadata.php:57
 msgid "Search for media found in:"
-msgstr "Mediasökning hittades i:"
+msgstr "Sök media som hittas i:"
 
 #: application/forms/AdvancedSearchByMetadata.php:69
 #: application/forms/KeywordSearch.php:36
@@ -671,7 +671,7 @@ msgstr "Beskrivning"
 #: application/forms/EditCategory.php:53 application/forms/EditEntry.php:67
 #: modules/channelplaylists/forms/StaticPlaylist.php:50
 msgid "Enter Description..."
-msgstr "Ange beskrivning"
+msgstr "Ange beskrivning…"
 
 #: application/forms/EditCategory.php:65 application/forms/EditEntry.php:96
 #: modules/channelplaylists/forms/StaticPlaylist.php:63
@@ -722,9 +722,9 @@ msgid ""
 "Anyone can view content (including anonymous users) but only admin role "
 "users and category members can contribute content."
 msgstr ""
-"Innehållet är synligt för alla (inklusive anonyma användare) men endast "
-"administratörsanvändare och kategorimedlemmar kan lämna bidrag till "
-"innehållet."
+"Innehållet är synligt för alla (inklusive anonyma användare), men endast "
+"användare med rollen administratör och kategorimedlemmar kan lämna bidrag "
+"till innehållet."
 
 #: application/forms/EditCategory.php:133 application/forms/EditChannel.php:81
 #: library/Kms/View/Helper/CategoryIcons.php:39
@@ -765,23 +765,19 @@ msgid "Privacy"
 msgstr "Integritet"
 
 #: application/forms/EditChannel.php:78
-#, fuzzy
-#| msgid ""
-#| "All logged in users can view content but only Category members can "
-#| "contribute content."
 msgid ""
 "All logged in users can view and contribute content (contribution is not "
 "allowed for viewer-role users)."
 msgstr ""
-"Alla inloggade användare kan se innehållet men endast kategorimedlemmar kan "
-"lämna bidrag till innehållet."
+"Alla inloggade användare kan se och bidra till innehållet ( Användare med "
+"viewer-roll kan inte bidra till innehållet)."
 
 #: application/forms/EditChannel.php:81
 msgid ""
 "All logged in users can view content and only channel members can contribute "
 "content."
 msgstr ""
-"Alla inloggade användare kan se innehållet men endast kanalmedlemmar kan "
+"Alla inloggade användare kan se innehållet, men endast kanalmedlemmar kan "
 "bidra till innehållet."
 
 #: application/forms/EditChannel.php:84
@@ -846,7 +842,7 @@ msgstr " Klicka för att lägga till obligatorisk metadata för delat utrymme"
 
 #: application/forms/EditEntry.php:156
 msgid "Assign the media to one or more filters:"
-msgstr "Lägg till ett eller fler filter till media:"
+msgstr "Lägg till media till ett eller fler filter:"
 
 #: application/forms/EditEntry.php:216 application/forms/EditEntry.php:314
 #: application/forms/EntryOptions.php:54
@@ -938,8 +934,8 @@ msgid ""
 "name=value,lorem=ipsum,one=two."
 msgstr ""
 "För att förvara namn-värde par i \"Extra information\": separera namnen från "
-"värden med lika med tecknet (=) och separera namn-värde upsättningarna genom "
-"att använda ett komma (,), t.ex namn=värde,lorem=ipsum,ett=två."
+"värden med lika med tecknet (=) och separera namn-värde uppsättningarna "
+"genom att använda ett komma (,), t.ex namn=värde,lorem=ipsum,ett=två."
 
 #: application/forms/EditUser.php:34
 msgid "Passwords cannot be retrieved but only overwritten."
@@ -1017,7 +1013,7 @@ msgstr "Ladda upp konfigurationsfil"
 
 #: application/forms/ImportConfig.php:40
 msgid "Keep partner settings?"
-msgstr "Behåll partner inställningarna?"
+msgstr "Behåll partnerinställningarna?"
 
 #: application/forms/ImportConfig.php:44
 #: application/views/scripts/admin/user-delete.dialog.phtml:33
@@ -1066,11 +1062,11 @@ msgstr "Partner - ID"
 
 #: application/forms/Install.php:145
 msgid "Instance ID"
-msgstr "Exempel ID"
+msgstr "Instans-ID"
 
 #: application/forms/Install.php:153
 msgid "Unique ID for this instance of MediaSpace installation."
-msgstr "Unikt ID för den här begäran av MediaSpace installationen."
+msgstr "Unikt ID för den här instansen av MediaSpace installationen."
 
 #: application/forms/Install.php:158
 msgid "Privacy Context"
@@ -1082,7 +1078,7 @@ msgid ""
 "entitlement. Minimal length - 4 characters."
 msgstr ""
 "String ska ställas in som integritetskontext på KMS rotkategorin för att "
-"förstärka rättigheter. Minimal längd - 4 tecken."
+"tvinga rättigheter. Minimal längd - 4 tecken."
 
 #: application/forms/Install.php:180
 #: application/views/scripts/partials/admin/userAdminPaging.phtml:62
@@ -1092,7 +1088,7 @@ msgstr "Nästa"
 
 #: application/forms/Install.php:277
 msgid "Force instance id"
-msgstr "Kräv begärt id"
+msgstr "Kräv instans-id"
 
 #: application/forms/KeywordSearch.php:77
 msgid "Reset"
@@ -1211,7 +1207,7 @@ msgstr "ID"
 
 #: application/models/Channel.php:1224 application/models/User.php:1271
 msgid "Unique entry identifier"
-msgstr "Unik identifierare på post"
+msgstr "Unik identifierare för post"
 
 #: application/models/Channel.php:1225 application/models/User.php:1273
 #: modules/scheduling/models/Scheduling.php:334
@@ -1261,7 +1257,7 @@ msgstr "Rutnät"
 #: modulesCustom/core/kaf/browseandembed/views/scripts/partials/courseGalleryResultsTable.phtml:11
 #: modulesCustom/core/kaf/browseandembed/views/scripts/partials/mediaResultsTable.phtml:6
 msgid "Collapsed view"
-msgstr "Sönderbruten översikt"
+msgstr "Kollapsad vy"
 
 #: application/models/Channel.php:1254 application/models/Channel.php:1259
 #: application/models/Channel.php:1262
@@ -1274,7 +1270,7 @@ msgstr "Sönderbruten översikt"
 #: modulesCustom/core/kaf/browseandembed/views/scripts/partials/courseGalleryResultsTable.phtml:12
 #: modulesCustom/core/kaf/browseandembed/views/scripts/partials/mediaResultsTable.phtml:7
 msgid "Detailed view"
-msgstr "Detaljerad översikt"
+msgstr "Detaljerad vy"
 
 #: application/models/Channel.php:1274
 msgid "Table"
@@ -1286,7 +1282,7 @@ msgstr "Ingen roll - endast systemadministratör"
 
 #: application/models/Config.php:1634
 msgid "sessionLifetime was below the minimum. Using the minimum: "
-msgstr "sessionens livslängd var under minimum. Använd minimum: "
+msgstr "sessionens livslängd var under minimum. Använder minimum: "
 
 #: application/models/Config.php:1660
 msgid "Client > verifySSL changed to yes"
@@ -1352,7 +1348,7 @@ msgstr "API Fel"
 
 #: application/models/Error.php:82
 msgid "Application Error"
-msgstr "Applikationsfel"
+msgstr "Applikationsfel. Tjänsten ej åtkomlig. Kontakta supporten"
 
 #: application/models/Localization.php:326
 msgid "All fields should be filled with values"
@@ -1398,8 +1394,8 @@ msgstr "Misslyckades att ladda upp flaggbilden."
 msgid ""
 "Most Recent - All published videos in channel or categories by creation date"
 msgstr ""
-"Senaste - Alla videor publicerade i kanaler eller kategorier sorterade "
-"efter  framställningsdatum"
+"Senaste - Alla videor publicerade i kanaler eller kategorier sorterade efter "
+"skapelsedatum"
 
 #: application/models/Playlist.php:131
 msgid ""
@@ -1418,7 +1414,7 @@ msgstr ""
 
 #: application/models/Playlist.php:180
 msgid "Custom Playlist"
-msgstr "Anpassa spellista"
+msgstr "Anpassad spellista"
 
 #: application/models/Playlist.php:1017
 msgid "Most Viewed"
@@ -1456,7 +1452,7 @@ msgstr "Inte listad"
 
 #: application/models/User.php:1315
 msgid "Unpublished"
-msgstr "Opublicerad"
+msgstr "Ej publicerad"
 
 #: library/Kms/Form/Element/FileUpload/Image.php:20
 #: modules/entryTypes/imageentry/models/Imageentry.php:196
@@ -1500,23 +1496,23 @@ msgstr "Afar"
 
 #: library/Kms/Helper/Languages.php:25
 msgid "Afrikaans"
-msgstr "afrikaans"
+msgstr "Afrikaans"
 
 #: library/Kms/Helper/Languages.php:26
 msgid "Albanian"
-msgstr "albanska"
+msgstr "Albanska"
 
 #: library/Kms/Helper/Languages.php:27
 msgid "Amharic"
-msgstr "amhariska"
+msgstr "Amhariska"
 
 #: library/Kms/Helper/Languages.php:28
 msgid "Arabic"
-msgstr "arabiska"
+msgstr "Arabiska"
 
 #: library/Kms/Helper/Languages.php:29
 msgid "Armenian"
-msgstr "armeniska"
+msgstr "Armeniska"
 
 #: library/Kms/Helper/Languages.php:30
 msgid "Assamese"
@@ -1560,27 +1556,27 @@ msgstr "Bretonska"
 
 #: library/Kms/Helper/Languages.php:40
 msgid "Bulgarian"
-msgstr "bulgariska"
+msgstr "Bulgariska"
 
 #: library/Kms/Helper/Languages.php:41
 msgid "Burmese"
-msgstr "burmesiska"
+msgstr "Burmesiska"
 
 #: library/Kms/Helper/Languages.php:42
 msgid "Byelorussian (Belarusian)"
-msgstr "vitryska (Belarusian)"
+msgstr "Vitryska (Belarusian)"
 
 #: library/Kms/Helper/Languages.php:43
 msgid "Cambodian"
-msgstr "kambodjanska"
+msgstr "Kambodjanska"
 
 #: library/Kms/Helper/Languages.php:44
 msgid "Catalan"
-msgstr "katalanska"
+msgstr "Katalanska"
 
 #: library/Kms/Helper/Languages.php:45
 msgid "Chinese"
-msgstr "kinesiska"
+msgstr "Kinesiska"
 
 #: library/Kms/Helper/Languages.php:46
 msgid "Corsican"
@@ -1588,7 +1584,7 @@ msgstr "Korsikanska"
 
 #: library/Kms/Helper/Languages.php:47
 msgid "Croatian"
-msgstr "kroatiska"
+msgstr "Kroatiska"
 
 #: library/Kms/Helper/Languages.php:48
 msgid "Czech"
@@ -1596,7 +1592,7 @@ msgstr "Tjeckiska"
 
 #: library/Kms/Helper/Languages.php:49
 msgid "Danish"
-msgstr "danska"
+msgstr "Danska"
 
 #: library/Kms/Helper/Languages.php:50
 msgid "Dutch"
@@ -1604,23 +1600,23 @@ msgstr "Holländska"
 
 #: library/Kms/Helper/Languages.php:51
 msgid "English"
-msgstr "engelska"
+msgstr "Engelska"
 
 #: library/Kms/Helper/Languages.php:52
 msgid "English (American)"
-msgstr "engelska (Amerikansk)"
+msgstr "Engelska (Amerikansk)"
 
 #: library/Kms/Helper/Languages.php:53
 msgid "English (British)"
-msgstr "engelska (Brittisk)"
+msgstr "Engelska (Brittisk)"
 
 #: library/Kms/Helper/Languages.php:54
 msgid "Esperanto"
-msgstr "esperanto"
+msgstr "Esperanto"
 
 #: library/Kms/Helper/Languages.php:55
 msgid "Estonian"
-msgstr "estniska"
+msgstr "Estniska"
 
 #: library/Kms/Helper/Languages.php:56
 msgid "Faeroese"
@@ -1628,7 +1624,7 @@ msgstr "Färöiska"
 
 #: library/Kms/Helper/Languages.php:57
 msgid "Farsi"
-msgstr "persiska"
+msgstr "Persiska"
 
 #: library/Kms/Helper/Languages.php:58
 msgid "Fiji"
@@ -1636,11 +1632,11 @@ msgstr "Fijianska"
 
 #: library/Kms/Helper/Languages.php:59
 msgid "Finnish"
-msgstr "finska"
+msgstr "Finska"
 
 #: library/Kms/Helper/Languages.php:60
 msgid "French"
-msgstr "franska"
+msgstr "Franska"
 
 #: library/Kms/Helper/Languages.php:61
 msgid "Frisian"
@@ -1656,23 +1652,23 @@ msgstr "Gaeliska (Skotsk)"
 
 #: library/Kms/Helper/Languages.php:64
 msgid "Galician"
-msgstr "galisiska"
+msgstr "Galisiska"
 
 #: library/Kms/Helper/Languages.php:65
 msgid "Georgian"
-msgstr "georgiska"
+msgstr "Georgiska"
 
 #: library/Kms/Helper/Languages.php:66
 msgid "German"
-msgstr "tyska"
+msgstr "Tyska"
 
 #: library/Kms/Helper/Languages.php:67
 msgid "Greek"
-msgstr "grekiska"
+msgstr "Grekiska"
 
 #: library/Kms/Helper/Languages.php:68
 msgid "Greenlandic"
-msgstr "grönländska"
+msgstr "Grönländska"
 
 #: library/Kms/Helper/Languages.php:69
 msgid "Guarani"
@@ -1692,19 +1688,19 @@ msgstr "Hebreiska"
 
 #: library/Kms/Helper/Languages.php:73
 msgid "Hindi"
-msgstr "hindi"
+msgstr "Hindi"
 
 #: library/Kms/Helper/Languages.php:74
 msgid "Hungarian"
-msgstr "ungerska"
+msgstr "Ungerska"
 
 #: library/Kms/Helper/Languages.php:75
 msgid "Icelandic"
-msgstr "isländska"
+msgstr "Isländska"
 
 #: library/Kms/Helper/Languages.php:76
 msgid "Indonesian"
-msgstr "indonesiska"
+msgstr "Indonesiska"
 
 #: library/Kms/Helper/Languages.php:77
 msgid "Interlingua"
@@ -1724,15 +1720,15 @@ msgstr "Inupiak"
 
 #: library/Kms/Helper/Languages.php:81
 msgid "Irish"
-msgstr "irländska"
+msgstr "Irländska"
 
 #: library/Kms/Helper/Languages.php:82
 msgid "Italian"
-msgstr "italienska"
+msgstr "Italienska"
 
 #: library/Kms/Helper/Languages.php:83
 msgid "Japanese"
-msgstr "japanska"
+msgstr "Japanska"
 
 #: library/Kms/Helper/Languages.php:84
 msgid "Javanese"
@@ -1764,11 +1760,11 @@ msgstr "Kirundi (Rundi)"
 
 #: library/Kms/Helper/Languages.php:91
 msgid "Korean"
-msgstr "koreanska"
+msgstr "Koreanska"
 
 #: library/Kms/Helper/Languages.php:92
 msgid "Kurdish"
-msgstr "kurdiska"
+msgstr "Kurdiska"
 
 #: library/Kms/Helper/Languages.php:93
 msgid "Laothian"
@@ -1776,7 +1772,7 @@ msgstr "Laotiska"
 
 #: library/Kms/Helper/Languages.php:94
 msgid "Latin"
-msgstr "latin"
+msgstr "Latin"
 
 #: library/Kms/Helper/Languages.php:95
 msgid "Latvian (Lettish)"
@@ -1792,11 +1788,11 @@ msgstr "Lingala"
 
 #: library/Kms/Helper/Languages.php:98
 msgid "Lithuanian"
-msgstr "litauiska"
+msgstr "Litauiska"
 
 #: library/Kms/Helper/Languages.php:99
 msgid "Macedonian"
-msgstr "makedonska"
+msgstr "Makedonska"
 
 #: library/Kms/Helper/Languages.php:100
 msgid "Malagasy"
@@ -1812,7 +1808,7 @@ msgstr "Malayalam"
 
 #: library/Kms/Helper/Languages.php:103
 msgid "Maltese"
-msgstr "maltesiska"
+msgstr "Maltesiska"
 
 #: library/Kms/Helper/Languages.php:104
 msgid "Maori"
@@ -1824,11 +1820,11 @@ msgstr "Marathi"
 
 #: library/Kms/Helper/Languages.php:106
 msgid "Moldavian"
-msgstr "moldaviska"
+msgstr "Moldaviska"
 
 #: library/Kms/Helper/Languages.php:107
 msgid "Mongolian"
-msgstr "mongoliska"
+msgstr "Mongoliska"
 
 #: library/Kms/Helper/Languages.php:108
 msgid "Multilingual"
@@ -1844,7 +1840,7 @@ msgstr "Nepali"
 
 #: library/Kms/Helper/Languages.php:111
 msgid "Norwegian"
-msgstr "norska"
+msgstr "Norska"
 
 #: library/Kms/Helper/Languages.php:112
 msgid "Occitan"
@@ -1864,11 +1860,11 @@ msgstr "Pashto (Pushto)"
 
 #: library/Kms/Helper/Languages.php:116
 msgid "Polish"
-msgstr "polska"
+msgstr "Polska"
 
 #: library/Kms/Helper/Languages.php:117
 msgid "Portuguese"
-msgstr "portugisiska"
+msgstr "Portugisiska"
 
 #: library/Kms/Helper/Languages.php:118
 msgid "Punjabi"
@@ -1884,11 +1880,11 @@ msgstr "Rätoromanska"
 
 #: library/Kms/Helper/Languages.php:121
 msgid "Romanian"
-msgstr "rumänska"
+msgstr "Rumänska"
 
 #: library/Kms/Helper/Languages.php:122
 msgid "Russian"
-msgstr "ryska"
+msgstr "Ryska"
 
 #: library/Kms/Helper/Languages.php:123
 msgid "Samoan"
@@ -1904,7 +1900,7 @@ msgstr "Sanskrit"
 
 #: library/Kms/Helper/Languages.php:126
 msgid "Serbian"
-msgstr "serbiska"
+msgstr "Serbiska"
 
 #: library/Kms/Helper/Languages.php:127
 msgid "Serbo-Croatian"
@@ -1944,11 +1940,11 @@ msgstr "Slovenska"
 
 #: library/Kms/Helper/Languages.php:136
 msgid "Somali"
-msgstr "somaliska"
+msgstr "Somaliska"
 
 #: library/Kms/Helper/Languages.php:137
 msgid "Spanish"
-msgstr "spanska"
+msgstr "Spanska"
 
 #: library/Kms/Helper/Languages.php:138
 msgid "Sundanese"
@@ -1960,7 +1956,7 @@ msgstr "Swahili (Kiswahili)"
 
 #: library/Kms/Helper/Languages.php:140
 msgid "Swedish"
-msgstr "svenska"
+msgstr "Svenska"
 
 #: library/Kms/Helper/Languages.php:141
 msgid "Tagalog"
@@ -2004,7 +2000,7 @@ msgstr "Tsonga"
 
 #: library/Kms/Helper/Languages.php:151
 msgid "Turkish"
-msgstr "turkiska"
+msgstr "Turkiska"
 
 #: library/Kms/Helper/Languages.php:152
 msgid "Turkmen"
@@ -2064,11 +2060,11 @@ msgstr "Zulu"
 
 #: library/Kms/Helper/Upload/Actions.php:26
 msgid "Media Upload"
-msgstr "Media uppladdning"
+msgstr "Uppladdning av media"
 
 #: library/Kms/Helper/Upload/Actions.php:35
 msgid "Webcam Recording"
-msgstr "webbkamera inspelning"
+msgstr "Webbkamera inspelning"
 
 #: library/Kms/Resource/Nav.php:257
 #: modules/addcontent/controllers/IndexController.php:19
@@ -2111,14 +2107,15 @@ msgid ""
 "MediaSpace (including the players)."
 msgstr ""
 "För att använda de senaste funktionerna och applicera de senaste "
-"bugglösningarna rekommenderas en uppgradering av sakerna som används i din "
-"MediaSpace (inklusive spelarna)"
+"bugglösningarna rekommenderas en uppgradering av de widgets som används i "
+"din MediaSpace (inklusive spelarna)"
 
 #: library/Kms/Setup/Upgrade/Abstract.php:77
 msgid ""
 "Would you like to automatically upgrade the widgets used in your MediaSpace?"
 msgstr ""
-"Skulle du vilja automatiskt uppgradera manicken som används i din MediaSpace?"
+"Skulle du vilja automatiskt uppgradera de widgets som används i din "
+"MediaSpace?"
 
 #: library/Kms/Setup/Upgrade/Abstract.php:81
 msgid ""
@@ -2127,10 +2124,11 @@ msgid ""
 "customized any of the widgets, please review the release notes and change "
 "log to see how to apply those changes to your customized widgets."
 msgstr ""
-"Ja- Uppgraderingsprocessen kommer att skapa nya saker och skriva över din "
-"MediaSpace konfiguration med dessa nytänkande uiConfs. Om du har hävt några "
-"saker, kontrollera utgivningsanteckningar och ändra logg för att se hur du "
-"kan applicera dessa ändringar till dina hävda saker."
+"Ja- Uppgraderingsprocessen kommer att skapa nya widgets och skriva över din "
+"MediaSpace konfiguration med dessa ”direkt-ur-lådan” uiConfs. Om du har "
+"anpassat några widgets, kontrollera utgivningsanteckningar och "
+"förändingslogg för att se hur du kan applicera dessa ändringar till dina "
+"anpassade widgets."
 
 #: library/Kms/Setup/Upgrade/Abstract.php:82
 msgid ""
@@ -2139,9 +2137,9 @@ msgid ""
 "manually by following the release notes and change log."
 msgstr ""
 "Nej - uppgraderingsprocessen kommer inte att skriva över din MediaSpace "
-"konfigurering och behåller dina aktuella saker. I detta fallet kommer du att "
-"behöva uppdatera dina saker manuellt genom följande utgivningsanteckningar "
-"och ändra logg."
+"konfigurering och behåller dina aktuella widgets I detta fallet kommer du "
+"att behöva uppdatera dina widgets manuellt genom följande "
+"utgivningsanteckningar och förändringslogg."
 
 #: library/Kms/Translate.php:99
 msgid "An error occurred while trying to save .mo file, please try again."
@@ -2153,7 +2151,7 @@ msgstr "Fel uppstod när du försökte öppna översättningsfilen."
 
 #: library/Kms/Translate.php:107 library/Kms/Translate.php:112
 msgid ".mo file provided is not a valid Zend getText file"
-msgstr "Den angivna .mo - filen är inte en giltig Zend getText fil"
+msgstr "Den angivna .mo - filen är inte en giltig Zend getText-fil"
 
 #: library/Kms/Translate.php:118
 msgid "Provided .mo file is not valid"
@@ -2241,10 +2239,8 @@ msgstr[1] "mindre än %u minuter"
 #: library/Kms/View/Helper/EmbedCodeIframeSecure.php:61
 #: library/Kms/View/Helper/EntitlementPlaylistIFrameEmbedCode.php:34
 #: library/Kms/View/Helper/EntitlementPlaylistSecureIFrameEmbedCode.php:50
-#, fuzzy
-#| msgid "Kaltura %1"
 msgid "Kaltura Player"
-msgstr "Kaltura %1"
+msgstr "Kaltura Player"
 
 #: library/Kms/View/Helper/EntryActions.php:45
 #: application/views/scripts/partials/mymedia/entry/entry.phtml:52
@@ -2288,11 +2284,11 @@ msgstr "pågående"
 
 #: library/Kms/View/Helper/EntryPublishingStatus.php:47
 msgid "rejected"
-msgstr "Nekad"
+msgstr "nekad"
 
 #: library/Kms/View/Helper/EntryPublishingStatus.php:50
 msgid "rejectedEntry"
-msgstr "NekatInlägg"
+msgstr "nekat inlägg"
 
 #: library/Kms/View/Helper/FilterBarFilterTypesPreparator.php:37
 #: library/Kms/View/Helper/FilterBarFilterTypesPreparator.php:79
@@ -2303,7 +2299,7 @@ msgstr "All media"
 #: modules/userreports/models/Tabs.php:15
 #: modules/userreports/views/scripts/partials/dashboard/index.phtml:15
 msgid "Media"
-msgstr "media"
+msgstr "Media"
 
 #: library/Kms/View/Helper/FilterBarSortersPreparator.php:22
 #: modules/entryTypes/audioentry/models/Audioentry.php:162
@@ -2427,7 +2423,7 @@ msgstr "sekund"
 #: library/Kms/View/Helper/Timespan.php:54
 #, php-format
 msgid "%s Minutes ago"
-msgstr "%s Minuter sedan"
+msgstr "%s minuter sedan"
 
 #: library/Kms/View/Helper/Timespan.php:54
 msgid "A moment ago"
@@ -2449,7 +2445,7 @@ msgstr "En dag sedan"
 #: library/Kms/View/Helper/Timespan.php:56
 #, php-format
 msgid "%s Days ago"
-msgstr "%s Dagar sedan"
+msgstr "%s dagar sedan"
 
 #: library/Kms/View/Helper/Timespan.php:57
 msgid "A week ago"
@@ -2458,7 +2454,7 @@ msgstr "En vecka sedan"
 #: library/Kms/View/Helper/Timespan.php:57
 #, php-format
 msgid "%s Weeks ago"
-msgstr "%s Veckor sedan"
+msgstr "%s veckor sedan"
 
 #: library/Kms/View/Helper/Timespan.php:58
 msgid "A month ago"
@@ -2467,7 +2463,7 @@ msgstr "En månad sedan"
 #: library/Kms/View/Helper/Timespan.php:58
 #, php-format
 msgid "%s Months ago"
-msgstr "%s Månader sedan"
+msgstr "%s månader sedan"
 
 #: library/Kms/View/Helper/Timespan.php:59
 msgid "A year ago"
@@ -2476,7 +2472,7 @@ msgstr "Ett år sedan"
 #: library/Kms/View/Helper/Timespan.php:59
 #, php-format
 msgid "%s Years ago"
-msgstr "%s År sedan"
+msgstr "%s år sedan"
 
 #: library/Kms/View/Helper/UserLink.php:44
 msgid "logout"
@@ -2487,14 +2483,12 @@ msgid "login"
 msgstr "logga in"
 
 #: modules/accessibility/models/Accessibility.php:68
-#, fuzzy
-#| msgid "Last Modified"
 msgid "Contrast Mode"
-msgstr "Senast ändrad"
+msgstr "Kontrastläge"
 
 #: modules/accessibility/models/Accessibility.php:69
 msgid "toggle contrast mode"
-msgstr ""
+msgstr "växla kontrastläge"
 
 #: modules/addcontent/controllers/IndexController.php:58
 msgid "1 Shared Repository"
@@ -2503,7 +2497,7 @@ msgstr "1 delat arkiv"
 #: modules/addcontent/controllers/IndexController.php:60
 #, php-format
 msgid "%s Shared Repositories"
-msgstr "%s Delade arkiv"
+msgstr "%s delade arkiv"
 
 #: modules/addcontent/controllers/IndexController.php:68
 #: application/views/scripts/partials/header/upload.phtml:10
@@ -2515,7 +2509,7 @@ msgstr "Lägg till ny"
 #: modules/addcontent/controllers/IndexController.php:255
 msgid "Your additional media will be presented once it is ready and approved."
 msgstr ""
-"Din andra media kommer att presenteras så fort den är redo och godkänd."
+"Din tillagda mediafil kommer att presenteras så fort den är redo och godkänd."
 
 #: modules/addcontent/controllers/IndexController.php:257
 #: modules/addcontent/controllers/IndexController.php:261
@@ -2524,7 +2518,7 @@ msgstr "Uppdatera nu"
 
 #: modules/addcontent/controllers/IndexController.php:260
 msgid "Your additional media will be presented once it is ready."
-msgstr "Din andra media kommer att presenteras så fort den är redo."
+msgstr "Din tillagda media kommer att presenteras så fort den är redo."
 
 #: modules/addcontent/controllers/IndexController.php:291
 msgid "You must choose entries to add."
@@ -2532,7 +2526,7 @@ msgstr "Du måste välja inlägg som ska läggas till."
 
 #: modules/addcontent/controllers/IndexController.php:297
 msgid "Cannot publish from a Shared Repository and My-Media together"
-msgstr "Kan inte publicera från både ett delat arkiv och Min media samtidigt"
+msgstr "Kan inte publicera från både ett delat arkiv och ”Min media” samtidigt"
 
 #: modules/addcontent/controllers/IndexController.php:337
 msgid "You are not allowed to publish entry \"<strong>%1</strong>\"."
@@ -2544,7 +2538,8 @@ msgid ""
 "You are not allowed to publish entry \"<strong>%1</strong>\". The media is "
 "pending"
 msgstr ""
-"Du är inte behörig att publicera inlägg \"<strong>%1</strong>\". Media väntar"
+"Du är inte behörig att publicera inlägg \"<strong>%1</strong>\". Mediafilen "
+"väntar på godkännande"
 
 #: modules/addcontent/controllers/IndexController.php:345
 msgid ""
@@ -2555,16 +2550,12 @@ msgstr ""
 "konverteras"
 
 #: modules/addcontent/controllers/IndexController.php:350
-#, fuzzy
-#| msgid ""
-#| "You cannot publish entry \"<strong>%1</strong>\". Please fill the "
-#| "required fields first <a href="
 msgid ""
 "You cannot publish entry \"<strong>%1</strong>\". Please fill the required "
 "fields first <a class=\"hidden-phone\" href="
 msgstr ""
 "Du kan inte publicera inlägg \"<strong>%1</strong>\". Fyll i de "
-"obligatoriska fälten först <a href="
+"obligatoriska fälten först <a class=”hidden-phone” href="
 
 #: modules/addcontent/controllers/IndexController.php:353
 msgid ""
@@ -2591,60 +2582,53 @@ msgid ""
 "Media \"%1\" could not be published. Try unpublishing this media from other "
 "galleries/channels and try again"
 msgstr ""
-"Media \"%1\" kunde inte publiceras. Försök att avsluta publiceringen av "
-"denna media ifrån andra gallerier/kanaler och försök igen"
+"Media \"%1\" kunde inte publiceras. Försök att avpublicera denna mediafil "
+"ifrån andra gallerier/kanaler och försök igen"
 
 #: modules/addcontent/controllers/IndexController.php:396
 msgid "Note that your media will not be listed until a moderator approves it."
 msgstr ""
-"Notera att din media inte kommer att bli listad förrän en moderator "
+"Notera att din mediafil inte kommer att bli listad förrän en moderator "
 "godkänner den."
 
 #: modules/addcontent/controllers/IndexController.php:399
 msgid "All media was published successfully. "
-msgstr "All media publicerades korrekt. "
+msgstr "All media publicerades framgångsrikt. "
 
 #: modules/addcontent/controllers/IndexController.php:406
 msgid "An error occured while trying to publish media."
-msgstr "Ett fel uppstod när media publicerades."
+msgstr "Ett fel uppstod under försöket att publicera media."
 
 #: modules/addcontent/models/Addcontent.php:161
 msgid "Add to Channel"
-msgstr "Lägg till kanal"
+msgstr "Lägg till mediafil"
 
 #: modules/addcontent/models/Addcontent.php:165
 msgid "Add to Gallery"
-msgstr "Lägg till galleri"
+msgstr "Lägg till i mediagalleriet"
 
 #: modules/addcontent/models/Addcontent.php:174
 #: modules/channelplaylists/views/scripts/partials/playlist/static/dialog.phtml:37
 msgid "Add Media"
-msgstr "Lägg till Media"
+msgstr "Lägg till mediafil"
 
 #: modules/addtoplaylists/controllers/IndexController.php:151
-#, fuzzy
-#| msgid "Media added to selected playlist/s : %1"
 msgid "Media added to selected playlist(s): %1."
-msgstr "Media har lagts till den utvalda spellistan/spellistorna : %1"
+msgstr "Media har lagts till den utvalda spellistan/spellistorna : %1."
 
 #: modules/addtoplaylists/controllers/IndexController.php:155
-#, fuzzy
-#| msgid "Media removed from playlist/s : %1"
 msgid "Media removed from playlist(s): %1."
-msgstr "Media borttagen från spelistan/spellistorna: %1"
+msgstr "Mediafil borttagen från spellistan/spellistorna: %1."
 
 #: modules/addtoplaylists/controllers/IndexController.php:159
-#, fuzzy
-#| msgid "Media that could not be added to selected playlist/s : %1"
 msgid "Media that could not be added to selected playlist(s): %1."
-msgstr "Media kunde inte läggas till den utvalda spellistan/spellistorna: %1"
+msgstr ""
+"Mediafil kunde inte läggas till den utvalda spellistan/spellistorna: %1."
 
 #: modules/addtoplaylists/controllers/IndexController.php:163
-#, fuzzy
-#| msgid " Now your selected media is part of the selected playlist/s "
 msgid "Now your selected media is part of the selected playlist(s)."
 msgstr ""
-" Din utvalda media är nu en del av den utvalda spellistan/spellistorna "
+"Din utvalda mediafil är nu en del av den valda spellistan/spellistorna."
 
 #: modules/addtoplaylists/controllers/IndexController.php:168
 msgid "Please select playlist to update."
@@ -2653,12 +2637,11 @@ msgstr "Välj spellista för att uppdatera."
 #: modules/addtoplaylists/controllers/IndexController.php:172
 msgid "Please select at least one media to add, click Cancel to go back."
 msgstr ""
-"Välj åtminstone en media för att lägga till, klicka på avbryt för att gå "
-"bakåt."
+"Välj minst en mediafil att lägga till. Klicka på avbryt för att gå tillbaka."
 
 #: modules/addtoplaylists/controllers/IndexController.php:207
 msgid "Error creating playlist"
-msgstr "Fel uppstod när spellista skapades"
+msgstr "Fel uppstod under försök att skapa spellista"
 
 #: modules/addtoplaylists/models/Addtoplaylists.php:58
 #: modules/addtoplaylists/models/Addtoplaylists.php:80
@@ -2668,11 +2651,11 @@ msgstr "Lägg till i spellista"
 
 #: modules/addtoplaylists/models/Addtoplaylists.php:79
 msgid "Add all selected media items to a playlist"
-msgstr "Lägg till alla valda mediaföremål i en spellista"
+msgstr "Lägg till alla valda mediafiler i en spellista"
 
 #: modules/attachments/controllers/IndexController.php:118
 msgid "Attachment was deleted successfully"
-msgstr "Bilagor raderades korrekt"
+msgstr "Bilagor raderades framgångsrikt"
 
 #: modules/attachments/models/Attachments.php:65
 #: modules/attachments/models/Attachments.php:91
@@ -2696,32 +2679,33 @@ msgstr ""
 
 #: modules/captions/controllers/IndexController.php:150
 msgid "An error occurred while deleting this caption file."
-msgstr "Ett fel uppstod när bildtextfilen raderades."
+msgstr "Ett fel uppstod när undertexten raderades."
 
 #: modules/captions/controllers/IndexController.php:176
 msgid "There was an error setting this caption file as Default."
-msgstr "Ett fel uppstod när bildtextfilen ställdes in på förinställt värde."
+msgstr "Ett fel uppstod när undertexten skulle ställas in som förvald."
 
 #: modules/captions/controllers/IndexController.php:200
 msgid "There was an error downloading this caption file."
-msgstr "Ett fel uppstod när bildtextfilen nerladdades."
+msgstr "Ett fel uppstod när undertexten skulle laddas ner."
 
 #: modules/captions/controllers/IndexController.php:253
 msgid "Select a caption file"
-msgstr "Välj en bildtexfil"
+msgstr "Välj en undertext"
 
 #: modules/captions/controllers/IndexController.php:267
 msgid "An Error occured while uploading the caption file."
-msgstr "Ett fel uppstod när bildtextfilen uppladdades."
+msgstr "Ett fel uppstod när undertexten skulle laddas upp."
 
 #: modules/captions/controllers/IndexController.php:320
 #: modules/captions/controllers/IndexController.php:338
 msgid "This caption file no longer exists."
-msgstr "Den här bildtextfilen finns inte längre."
+msgstr "Den här undertexten finns inte längre."
 
 #: modules/captions/controllers/SearchController.php:61
 msgid "Sorry, an error while retrieving entry, please try again."
-msgstr "Tyvärr, ett fel uppstod när inlägget erhölls, var god försök igen."
+msgstr ""
+"Tyvärr, ett fel uppstod när inlägget skulle hämtas. Var god försök igen."
 
 #: modules/captions/forms/Change.php:39 modules/captions/forms/Upload.php:70
 msgid "Select a language"
@@ -2749,7 +2733,7 @@ msgstr "Etikett"
 
 #: modules/captions/forms/Upload.php:77
 msgid "(text that appears in caption selector)"
-msgstr "(text som syns i bildtextväljaren)"
+msgstr "(text som syns i väljaren för undertext)"
 
 #: modules/captions/models/Captions.php:153
 #: modules/captions/views/scripts/search/entry.phtml:95
@@ -2769,12 +2753,12 @@ msgstr "Sök i video"
 
 #: modules/captions/models/Captions.php:900
 msgid "media that include the text inside its captions"
-msgstr "media som har text inuti bildtexterna"
+msgstr "mediafil som inkluderar texten som visas i undertexterna"
 
 #: modules/category/categoryembed/models/Categoryembed.php:36
 #: modules/channels/channelembed/models/Channelembed.php:36
 msgid "Enable Embed Grab"
-msgstr "Möjliggör inbäddat grepp"
+msgstr "Aktivera dela kod för inbäddning på webbsida"
 
 #: modules/category/categorymembers/controllers/IndexController.php:211
 msgid "This user is already a member of this category"
@@ -2790,7 +2774,7 @@ msgstr "Användare %1 existerar inte"
 
 #: modules/category/categorymembers/controllers/IndexController.php:234
 msgid "There was an error creating the category member."
-msgstr "Ett fel uppstod när kategorins medlem uppdaterades."
+msgstr "Ett fel uppstod när kategori-medlemen skulle skapas."
 
 #: modules/category/categorymembers/controllers/IndexController.php:293
 #: modules/channels/channelmembers/controllers/IndexController.php:342
@@ -2799,7 +2783,8 @@ msgstr "Tillstånd ändrades. Uppdatering av tillstånd kan ta några minuter."
 
 #: modules/category/categorymembers/controllers/IndexController.php:299
 msgid "There was an error updating the category member permission."
-msgstr "Ett fel uppstod när godkännandet av kategorimedlem uppdaterades."
+msgstr ""
+"Ett fel uppstod när av kategori-medlemens rättigheter skulle uppdateras."
 
 #: modules/category/categorymembers/controllers/IndexController.php:337
 msgid "Problem occured."
@@ -2887,11 +2872,11 @@ msgstr "Medlemmar"
 
 #: modules/category/categorymoderation/controllers/IndexController.php:119
 msgid "Item/s have been approved and will appear in category."
-msgstr "Föremål har blivit godkända och kommer att visas i kategorin."
+msgstr "Fil/er har blivit godkända och kommer att visas i kategorin."
 
 #: modules/category/categorymoderation/controllers/IndexController.php:157
 msgid "Item/s have been rejected and will not appear in category."
-msgstr "Föremål har inte blivit gokända och kommer inte att visas i kategorin."
+msgstr "Fil/er har inte blivit godkända och kommer inte att visas i kategorin."
 
 #: modules/category/categorymoderation/models/Categorymoderation.php:60
 #: modules/channels/channelmoderation/models/Channelmoderation.php:75
@@ -2906,8 +2891,8 @@ msgid ""
 "Moderate content (Media will not appear in category until approved by "
 "category manager)"
 msgstr ""
-"Moderat innehåll (Media kommer inte att synas i kategorin förrän den har "
-"godkänts av kategorins manager)"
+"Moderat innehåll (Mediafiler kommer inte att synas i kategorin förrän den "
+"har godkänts av kategorins administratör)"
 
 #: modules/channelplaylists/assets/channelplaylists.js:393
 msgid "View "
@@ -2920,7 +2905,7 @@ msgstr "Misslyckade att spara spellistans nya ordning"
 #: modules/channelplaylists/controllers/PlaylistController.php:90
 #, php-format
 msgid "The playlist <b><i>%s</i></b> was deleted successfully"
-msgstr "Spellistan <b><i>%s</i></b> raderades korrekt"
+msgstr "Spellistan <b><i>%s</i></b> raderades framgångsrikt"
 
 #: modules/channelplaylists/controllers/PlaylistController.php:93
 #, php-format
@@ -2930,7 +2915,7 @@ msgstr "Misslyckade att radera spellista<b><i>%s</i></b>"
 #: modules/channelplaylists/controllers/PlaylistController.php:145
 #, php-format
 msgid "Successfully added a new playlist <b><i>%s</i></b>"
-msgstr "En ny spelista har lagts till korrekt <b><i>%s</i></b>"
+msgstr "En ny spelista har lagts till framgångsrikt <b><i>%s</i></b>"
 
 #: modules/channelplaylists/controllers/PlaylistController.php:148
 #, php-format
@@ -2940,7 +2925,7 @@ msgstr "Misslyckade att lägga till en ny spellista <b><i>%s</i></b>"
 #: modules/channelplaylists/controllers/PlaylistController.php:212
 #, php-format
 msgid "Playlist <b><i>%s</i></b> updated successfuly"
-msgstr "Spellista <b><i>%s</i></b> uppdaterades korrekt"
+msgstr "Spellista <b><i>%s</i></b> uppdaterades framgångsrikt"
 
 #: modules/channelplaylists/controllers/PlaylistController.php:215
 #, php-format
@@ -2978,6 +2963,8 @@ msgstr "Kanalgalleri"
 #: modules/channelplaylists/models/Channelplaylists.php:288
 msgid "Playlists were not imported. more than %1 playlists in the channel."
 msgstr ""
+"Spellistor blev inte importerade. Mer än %1 spellistor i kanalen (vilket "
+"överskrider tillåten gräns)."
 
 #: modules/channels/channelcategories/models/Channelcategories.php:165
 #: modules/channels/channelcategories/models/Channelcategories.php:174
@@ -3029,33 +3016,33 @@ msgstr "%1 är inte längre en medlem av kanalen."
 
 #: modules/channels/channelmembers/models/Channelmembers.php:457
 msgid "Managers"
-msgstr "Managers"
+msgstr "Administratörer"
 
 #: modules/channels/channelmembers/models/Channelmembers.php:465
 msgid "Moderators"
-msgstr "Moderator"
+msgstr "Moderatorer"
 
 #: modules/channels/channelmoderation/controllers/IndexController.php:130
 msgid "Item/s have been approved and will appear in channel."
-msgstr "Föremål har godkänts och kommer att visas i kanalen."
+msgstr "Fil/er har godkänts och kommer att visas i kanalen."
 
 #: modules/channels/channelmoderation/controllers/IndexController.php:166
 msgid "Item/s have been rejected and will not appear in channel."
-msgstr "Föremål har inte godkänts och kommer inte att visas i kanalen."
+msgstr "Fil/er har inte godkänts och kommer inte att visas i kanalen."
 
 #: modules/channels/channelmoderation/models/Channelmoderation.php:227
 #: application/views/scripts/partials/entry/thumbnail.phtml:119
 #: application/views/scripts/partials/filter/media/mediaStatus.phtml:23
 msgid "Pending"
-msgstr "Pågående"
+msgstr "Väntande"
 
 #: modules/channels/channelmoderation/models/Channelmoderation.php:363
 msgid ""
 "Moderate content (Media will not appear in channel until approved by channel "
 "manager)"
 msgstr ""
-"Moderat innehåll (Media kommer inte synas på kanalen förrän den har godkänts "
-"av manager)"
+"Modererat innehåll (Mediafilen kommer inte synas i kanalen förrän den har "
+"godkänts av administratören för kanalen)"
 
 #: modules/channels/channelsubscription/models/Channelsubscription.php:62
 msgid "Enable subscription to channel"
@@ -3073,7 +3060,7 @@ msgstr "Prenumererad"
 
 #: modules/channels/channelsubscription/models/Channelsubscription.php:269
 msgid "Unsubscribed"
-msgstr "Oprenumererad"
+msgstr "Avprenumererad"
 
 #: modules/channels/channeltopics/models/Channeltopics.php:142
 msgid "no value"
@@ -3106,7 +3093,7 @@ msgstr ""
 
 #: modules/chapters/controllers/EntryController.php:119
 msgid "An Error occurred while trying to save chapter"
-msgstr "Ett fel uppstod när kapitlet sparades"
+msgstr "Ett fel uppstod vid försök att spara kapitlet"
 
 #: modules/chapters/controllers/EntryController.php:128
 msgid "An Error occurred while updating chapter \"%1\"."
@@ -3140,12 +3127,12 @@ msgstr "Sök på tidslinje"
 
 #: modules/chapters/models/Chapters.php:248
 msgid "media that include the text inside its chapters"
-msgstr "media vars kapitel har text"
+msgstr "mediafil vars kapitel har text"
 
 #: modules/chapters/models/Chapters.php:772
 msgid ""
 "An error occurred while trying to convert your document, please try again."
-msgstr "Ett fel uppstod när dokumentet konverterades, försök igen."
+msgstr "Ett fel uppstod vid försök att konvertera dokumentet. Försök igen."
 
 #: modules/chapters/models/Chapters.php:773
 msgid "Click here to refresh the Timeline tab"
@@ -3153,7 +3140,7 @@ msgstr "Klicka här för att uppdatera tidslinjetabben"
 
 #: modules/clipper/controllers/ClipController.php:46
 msgid " - Clipped by %1"
-msgstr " - klippt av %1"
+msgstr " - Klippt av %1"
 
 #: modules/clipper/controllers/ClipController.php:54
 #: modules/clipper/models/Clipper.php:98 modules/clipper/models/Clipper.php:117
@@ -3163,7 +3150,7 @@ msgstr "Skapa klipp"
 
 #: modules/clipper/controllers/ClipController.php:84
 msgid "The media was clipped successfully"
-msgstr "Media blev klippt korrekt"
+msgstr "Mediafilen blev klippt framgångsrikt"
 
 #: modules/clipper/controllers/ClipController.php:91
 msgid "Clipping failed. Please try again later."
@@ -3172,37 +3159,37 @@ msgstr "Klippning misslyckades. Försök igen senare."
 #: modules/clipper/controllers/TrimController.php:35
 msgid ""
 "Trimming is not available since the source flavor of this video is missing."
-msgstr "Beskärning är inte tillgänglig då den här videons källtyp saknas."
+msgstr "Trimning är inte tillgänglig då den här videons källtyp saknas."
 
 #: modules/clipper/controllers/TrimController.php:41
 msgid "Trimming is not available for entries containing captions."
-msgstr "Beskärning är inte tillgänglig för inlägg som innehåller bildtext."
+msgstr "Trimning är inte tillgänglig för inlägg som innehåller undertexter."
 
 #: modules/clipper/controllers/TrimController.php:53
 #: modules/clipper/controllers/TrimController.php:83
 #: modules/replacemedia/controllers/ReplaceController.php:123
 msgid "Your media is being processed"
-msgstr "Din media behandlas"
+msgstr "Din mediafil behandlas"
 
 #: modules/clipper/controllers/TrimController.php:58
 msgid ""
 "You cannot trim this media while a previous trim is pending approval of the "
 "application administrator."
 msgstr ""
-"Du kan inte beskära denna media när föregående beskärning väntar på "
-"applikationens administratörs godkännande."
+"Du kan inte trimma denna mediafil när föregående trimning väntar på "
+"godkännande av administratör."
 
 #: modules/clipper/controllers/TrimController.php:88
 msgid ""
 "The trimmed video must be approved by the application administrator. Until "
 "the version is approved, the original version will be displayed."
 msgstr ""
-"Den beskurna videon måste godkännas av applikationens administrator. Fram "
-"tills versionen är godkänd kommer den ursprungliga versionen att visas."
+"Den trimmade videon måste godkännas av administratör. Fram tills den nya "
+"versionen är godkänd kommer den ursprungliga versionen att visas."
 
 #: modules/clipper/controllers/TrimController.php:93
 msgid "Your media was trimmed."
-msgstr "Din media redigerades."
+msgstr "Din mediafil redigerades."
 
 #: modules/clipper/controllers/TrimController.php:97
 msgid "Video trimming failed. Please try again later."
@@ -3212,7 +3199,7 @@ msgstr "Videoredigering misslyckades, försök igen senare."
 #: modules/clipper/views/scripts/partials/widgets/clipper.phtml:25
 #: modules/clipper/views/scripts/partials/widgets/clipper.phtml:37
 msgid "Trim Video"
-msgstr "Redigera video"
+msgstr "Trimma video"
 
 #: modules/clipper/models/Clipper.php:210
 msgid "Clipping"
@@ -3246,7 +3233,7 @@ msgstr "Kommentarer"
 
 #: modules/comments/models/Comments.php:195
 msgid "Disable comments for this media"
-msgstr "Inaktivera medians kommentarer"
+msgstr "Inaktivera mediafilens kommentarer"
 
 #: modules/comments/models/Comments.php:196
 msgid "Close discussion (do not allow new comments)"
@@ -3254,7 +3241,7 @@ msgstr "Stäng diskussion (tillåt inte nya kommentarer)"
 
 #: modules/comments/models/Comments.php:394
 msgid "%1 comment(s). Click to see them"
-msgstr ""
+msgstr "%1 kommentar(er). Klicka för att se dem"
 
 #: modules/comments/models/Comments.php:1128
 msgid "Enable comments in channel"
@@ -3262,11 +3249,11 @@ msgstr "Aktivera kanalens kommentarer"
 
 #: modules/comments/models/Comments.php:1130
 msgid "Keep comments private to channel."
-msgstr "håll kommentarerna privata till kanalen."
+msgstr "Håll kommentarerna privata inom kanalen."
 
 #: modules/comments/models/Comments.php:1134
 msgid "Enable comments in category"
-msgstr "Möjliggör kommentarer i kategorin"
+msgstr "Möjliggör kommentarer inom kategorin"
 
 #: modules/comments/models/Comments.php:1136
 msgid "Keep comments private to category."
@@ -3315,7 +3302,7 @@ msgstr "Ingen media begärd"
 
 #: modules/embed/controllers/SecureController.php:128
 msgid "Cannot render media, please check the passed parameters %1(Error: %2)"
-msgstr "Kan inte återge media, kontrollera föregående parametrar %1(Fel: %2)"
+msgstr "Kan inte visa media, kontrollera föregående parametrar %1(Fel: %2)"
 
 #: modules/embed/models/Embed.php:61
 msgid "Share"
@@ -3431,7 +3418,7 @@ msgstr "Redigera händelse och sändningsalternativ"
 
 #: modules/entryTypes/quiz/controllers/EntryController.php:115
 msgid "Entry id for duplication must be specified."
-msgstr "Inläggs- id för duplicering måste specificeras."
+msgstr "Inläggs-id måste specificeras för att utföra duplicering ."
 
 #: modules/entryTypes/quiz/controllers/EntryController.php:125
 msgid "Unexpected error"
@@ -3451,7 +3438,7 @@ msgstr "Du har inte rättighet att redigera det här inlägget."
 
 #: modules/entryTypes/quiz/controllers/EntryController.php:199
 msgid "This is not a quiz entry."
-msgstr "Detta är inte ett quiz inlägg"
+msgstr "Detta är inte ett quiz-inlägg."
 
 #: modules/entryTypes/quiz/models/Quiz.php:96
 #: modules/entryTypes/quiz/models/Quiz.php:113
@@ -3483,7 +3470,7 @@ msgid ""
 "Your presentation has been successfully created. You can now sync keypoints "
 "or edit metadata."
 msgstr ""
-"Din presentation har skapats korrekt. Du kan nu synka viktig information "
+"Din presentation har skapats framgångsrikt. Du kan nu synka presentation "
 "eller redigera metadata."
 
 #: modules/entryTypes/videopresentations/models/Videopresentations.php:171
@@ -3546,7 +3533,7 @@ msgstr "Webbutsändning"
 
 #: modules/entryTypes/youtube/controllers/EntryController.php:137
 msgid "Unsupported URL or ID provided"
-msgstr "Angiven URL eller Id är ogiltig"
+msgstr "Angiven URL eller Id är stöds ej"
 
 #: modules/entryTypes/youtube/forms/ExternalDetails.php:25
 msgid "Video Page Link (or Content ID)"
@@ -3571,15 +3558,17 @@ msgstr "Extern media"
 #: modules/history/views/scripts/index/index.phtml:6
 #: modules/history/views/scripts/index/index.phtml:11
 msgid "My History"
-msgstr ""
+msgstr "Min historik"
 
 #: modules/history/models/History.php:244
 msgid "Recently Watched - Individual user's viewing history"
-msgstr ""
+msgstr "Senast visade - Enskilda användares historik för visad media"
 
 #: modules/history/models/History.php:251
 msgid "Continue Watching - Individual user's history of none-completed videos"
 msgstr ""
+"Fortsätt titta - Enskilda användares historik för visningar av video som ej "
+"är avslutade"
 
 #: modules/history/views/helpers/PlaybackContext.php:14
 #: modules/userreports/controllers/EngagementController.php:32
@@ -3590,22 +3579,16 @@ msgstr "Sedda"
 
 #: modules/history/views/helpers/PlaybackContext.php:16
 #: modules/history/views/scripts/partials/filter/watch-status.phtml:9
-#, fuzzy
-#| msgid "Visits"
 msgid "Visited"
-msgstr "Besök"
+msgstr "Besökta"
 
 #: modules/history/views/helpers/PlaybackContext.php:26
-#, fuzzy
-#| msgid "Embed"
 msgid "embed"
-msgstr "Inbäddad"
+msgstr "inbäddad"
 
 #: modules/history/views/helpers/PlaybackContext.php:46
-#, fuzzy
-#| msgid "Mon"
 msgid "on"
-msgstr "Mon"
+msgstr "på"
 
 #: modules/importchannel/controllers/IndexController.php:33
 msgid "To import content from another channel you manage, "
@@ -3624,19 +3607,19 @@ msgstr "Välj kanalen som du vill importera inlägg ifrån"
 msgid ""
 "An error occurred while trying to complete your request. Please try again "
 "later."
-msgstr "Ett fel uppstod när din förfrågan behandlades. försök igen senare."
+msgstr "Ett fel uppstod när din begäran behandlades. Försök igen senare."
 
 #: modules/importchannel/controllers/IndexController.php:127
 msgid ""
 "Importing completed successfully. To refresh the page and view the imported "
 "entries, "
 msgstr ""
-"Import avslutades korrekt. För att uppdatera sidan och se de importerade "
-"inläggen. "
+"Import avslutades framgångsrikt. För att uppdatera sidan och se de "
+"importerade inläggen. "
 
 #: modules/importchannel/models/Importchannel.php:65
 msgid "Importing Started Successfully"
-msgstr "Import startade korrekt"
+msgstr "Import startade framgångsrikt"
 
 #: modules/oembed/controllers/IndexController.php:261
 msgid ""
@@ -3651,11 +3634,13 @@ msgstr ""
 #: modules/publish/assets_src/publishForm.js:401
 #: modules/publish/views/scripts/index/index.ajax.phtml:7
 msgid "Published entries cannot be unpublished"
-msgstr "Publicerade anteckningar kan inte bli opublicerade"
+msgstr "Publicerade inlägg kan inte bli av-publicerade"
 
 #: modules/publish/models/Backend.php:377
 msgid "Media page will be visible to the content owner only."
-msgstr "Mediasidan kommer endast att vara synlig för innehållets ägare."
+msgstr ""
+"Sida för att visa mediafiler kommer endast att vara synlig för innehållets "
+"ägare."
 
 #: modules/publish/models/Backend.php:383
 #: application/views/scripts/partials/filter/media/mediaStatus.phtml:22
@@ -3672,8 +3657,8 @@ msgid ""
 "Media page will be visible to individuals according to entitlements on "
 "published destinations"
 msgstr ""
-"Media kommer att vara synlig för individer i enlighet med rättigheterna "
-"gällande publicerade destinationer"
+"Mediafilen kommer att vara synlig för individer i enlighet med rättigheterna "
+"för nedanstående destinationer"
 
 #: modules/publish/models/Backend.php:412
 msgid "Please select at least one entry to publish"
@@ -3687,7 +3672,7 @@ msgstr ""
 #: modules/publish/models/Backend.php:426
 #: modules/publish/models/Backend.php:480
 msgid "An error occurred while trying to publish / unpublish media."
-msgstr "Ett fel uppstod när media publicerades/opublicerades."
+msgstr "Ett fel uppstod när media publicerades/avpublicerades."
 
 #: modules/publish/models/Backend.php:472
 msgid "No valid categories or channels for publish."
@@ -3698,29 +3683,29 @@ msgid ""
 "The media could not be published / unpublished. Try unpublishing from other "
 "galleries/channels and try again"
 msgstr ""
-"Media kunde inte publiceras / opubliceras. Försök att ta bort den från andra "
-"gallerier /kanaler och försök igen"
+"Media kunde inte publiceras / avpubliceras. Försök att ta bort mediafilen "
+"från andra gallerier/kanaler och försök igen"
 
 #: modules/publish/models/Backend.php:483
 msgid ""
 "Media \"%1\" could not be published / unpublished. Try unpublishing this "
 "media from other galleries/channels and try again"
 msgstr ""
-"Media \"%1\" kunde inte publiceras/opubliceras. Försök att opublicera den "
-"från andra gallerier/kanaler och försök igen"
+"Mediafilen \"%1\" kunde inte publiceras/av-publiceras. Försök att "
+"avpublicera den från andra gallerier/kanaler och försök igen"
 
 #: modules/publish/models/Backend/EntriesValidator.php:54
 msgid "The media could not be loaded"
-msgstr "Media kunde inte laddas upp"
+msgstr "Mediafilen kunde inte laddas upp"
 
 #: modules/publish/models/Backend/EntriesValidator.php:55
 msgid "Media could not be loaded \"<strong>%1</strong>\"."
-msgstr "Media kunde inte laddas upp \"<strong>%1</strong>\"."
+msgstr "Mediafilen kunde inte laddas upp \"<strong>%1</strong>\"."
 
 #: modules/publish/models/Backend/EntriesValidator.php:75
 #: modules/addtoplaylists/views/scripts/partials/index.phtml:53
 msgid "This media is pending review"
-msgstr "Denna media väntar på granskning"
+msgstr "Denna mediafil väntar på granskning"
 
 #: modules/publish/models/Backend/EntriesValidator.php:83
 msgid ""
@@ -3811,7 +3796,7 @@ msgstr "Mediasidan kommer att vara synlig för alla som har en länk till sidan.
 
 #: modules/publish/models/Backend/Plugin/Unlisted.php:79
 msgid "Media successfully set to Unlisted"
-msgstr "Media korrekt inställd på olistad"
+msgstr "Mediafil framgångsrikt inställd som ”Ej listad”"
 
 #: modules/publish/models/Interface/Entry.php:141
 msgid "Appears In"
@@ -3857,37 +3842,37 @@ msgstr "Nekad i:"
 
 #: modules/publish/models/Interface/MyMedia.php:39
 msgid "Publish all selected media items"
-msgstr "Publicera i alla valda mediaföremål"
+msgstr "Publicera i alla valda mediafiler"
 
 #: modules/publish/models/SaveUtil.php:105
 msgid "Media successfully unpublished"
-msgstr "Media har blivit opublicerad korrekt"
+msgstr "Mediafiler har framgångsrikt blivit avpublicerade"
 
 #: modules/publish/models/SaveUtil.php:110
 msgid "Media successfully published"
-msgstr "Media har publicerats"
+msgstr "Mediafiler har framgångsrikt publicerats"
 
 #: modules/publish/models/SaveUtil.php:113
 msgid ""
 "Note: Some media may not be published until approved by the media moderator."
 msgstr ""
-"Notera: En del media kommer eventuellt inte att publiceras förrän "
-"mediamoderatorn lämnat sitt godkännande."
+"Notera: En del media kommer eventuellt inte att publiceras förrän moderatorn "
+"lämnat sitt godkännande."
 
 #: modules/publish/models/SaveUtil.php:117
 msgid "Media successfully published / unpublished"
-msgstr "Media publicerades / opublicerades korrekt"
+msgstr "Media publicerades / avpublicerades framgångsrikt"
 
 #: modules/publish/models/SaveUtil.php:120
 msgid "Media successfully set to Private"
-msgstr "Media korrekt inställd på privat"
+msgstr "Media framgångsrikt inställd som ”privat”"
 
 #: modules/publish/views/helpers/Publish.php:24
 msgid ""
 "This action will un-publish the entry from all categories / channels.<br/"
 ">Are you sure you want to continue?"
 msgstr ""
-"Detta kommer att opublicera inläggets ifrån alla kategorier /      kanaler."
+"Detta kommer att avpublicera inläggets ifrån alla kategorier /      kanaler."
 "<br/>Är du säker på att du vill fortsätta?"
 
 #: modules/related/models/Related.php:80
@@ -3923,23 +3908,22 @@ msgstr " av "
 #: modules/replacemedia/controllers/ReplaceController.php:67
 msgid ""
 "Your media is being processed , please contact the application administrator"
-msgstr "Din media behandlas, kontakta applikationens administratör"
+msgstr "Din media behandlas, kontakta administratör"
 
 #: modules/replacemedia/controllers/ReplaceController.php:84
 msgid ""
 "All current flavors will be replaced upon replacement approval. Any time "
 "based metadata won’t be synced with the new content"
 msgstr ""
-"Alla nuvarande typer kommer att ersättas vid godkännande av ersättning. All "
-"tid som är baserad på metadata kommer inte att synkroniseras med det nya "
-"innehållet"
+"Alla nuvarande typer kommer att ersättas vid godkännande av ersättning. "
+"Ingen tidsbaserad metadata kommer att synkroniseras med det nya innehållet"
 
 #: modules/replacemedia/controllers/ReplaceController.php:88
 msgid ""
 "We are sorry but there is a problem with the uploaded media, please try "
 "again."
 msgstr ""
-"Vi ber om ursäkt, men det finns ett problem med den uppladdade median, "
+"Vi ber om ursäkt, men det finns ett problem med den uppladdade mediafilen, "
 "försök igen."
 
 #: modules/replacemedia/controllers/ReplaceController.php:162
@@ -3947,17 +3931,17 @@ msgid ""
 "Your media was successfully replaced and unpublished from any moderated "
 "categories and channels."
 msgstr ""
-"Din media blev ersatt korrekt och är inte längre publicerad i någon "
-"modererade kategorier och kanaler."
+"Din media ersattes framgångsrikt och är inte längre publicerad i någon "
+"modererad kategori eller kanaler."
 
 #: modules/replacemedia/controllers/ReplaceController.php:164
 msgid "Your media was successfully replaced."
-msgstr "Din media har korrekt blivit ersatt."
+msgstr "Din media har framgångsrikt blivit ersatt."
 
 #: modules/replacemedia/controllers/ReplaceController.php:207
 #, php-format
 msgid "Unsupported media type \"%s\""
-msgstr ""
+msgstr "Mediatypen stöds ej ”%s”"
 
 #: modules/scheduling/models/Scheduling.php:76
 #: modulesCustom/core/categoryscheduling/models/Categoryscheduling.php:43
@@ -3971,10 +3955,8 @@ msgstr "Framtida schemaläggning"
 
 #: modules/scheduling/models/Scheduling.php:78
 #: modulesCustom/core/categoryscheduling/models/Categoryscheduling.php:45
-#, fuzzy
-#| msgid "Available to view"
 msgid "Available Now"
-msgstr "Tillgänglig att visa"
+msgstr "Tillgänglig att visa nu"
 
 #: modules/scheduling/models/Scheduling.php:79
 #: modulesCustom/core/categoryscheduling/models/Categoryscheduling.php:46
@@ -4008,8 +3990,8 @@ msgid ""
 "(The time range in which this media will be visible to users in published "
 "channels/categories)"
 msgstr ""
-"(Tidsramen inom vilken media kommer att vara synlig för användare i "
-"publicerade kanaler/kategorier)"
+"(Tidsramen inom vilken den här mediafilen kommer att vara synlig för "
+"användare i de kanaler/kategorier som mediafilen publicerats)"
 
 #: modules/scheduling/models/Scheduling.php:198
 #: modulesCustom/core/recscheduling/forms/CreateEvent.php:70
@@ -4052,8 +4034,8 @@ msgid ""
 msgstr ""
 "The Kaltura Skärminspelaren är en Java plugin som inte stöd av den här "
 "versionen av Chrome.<br>För att använda Kaltura Skärminspelare, använd en "
-"annan webbläsare såsom Safari, Internet Explorer eller Firefox.<br>För mer "
-"information kontrollera <a href=\\'http://knowledge.kaltura.com/"
+"annan webbläsare som t.ex. Safari, Internet Explorer eller Firefox.<br>För "
+"mer information kontrollera <a href=\\'http://knowledge.kaltura.com/"
 "troubleshooting-kaltura-screen-recorder\\'>stödda webbläsare listan</a>."
 
 #: modules/screencapture/models/Screencapture.php:58
@@ -4100,7 +4082,7 @@ msgstr "Det valda 'Från' datumet ska vara före det valda 'Till' datumet"
 #: modules/userreports/views/scripts/partials/entry/category_top_plays.phtml:24
 #: modules/userreports/views/scripts/partials/users/index.phtml:24
 msgid "Plays"
-msgstr "Spelar"
+msgstr "Antal spelningar"
 
 #: modules/userreports/controllers/CategoriesController.php:58
 #: modules/userreports/controllers/ChannelsController.php:99
@@ -4116,7 +4098,7 @@ msgstr "Besök"
 #: modules/userreports/controllers/ChannelsController.php:100
 #: modules/userreports/controllers/UsersController.php:67
 msgid "Plays to Views Ratio"
-msgstr "Spelar upp till visningskvot"
+msgstr "Förhållande Spelningar/tittningar"
 
 #: modules/userreports/controllers/CategoriesController.php:60
 #: modules/userreports/controllers/ChannelsController.php:101
@@ -4152,7 +4134,7 @@ msgstr "Användare"
 #: modules/userreports/views/scripts/partials/contribution/index.phtml:24
 #: modules/userreports/views/scripts/partials/dashboard/index.phtml:52
 msgid "Contributed"
-msgstr "Bidrog"
+msgstr "Bidrag"
 
 #: modules/userreports/controllers/ContributionController.php:70
 #: modules/userreports/controllers/EngagementController.php:82
@@ -4160,7 +4142,7 @@ msgstr "Bidrog"
 #: modules/userreports/views/scripts/partials/engagement/mediaspecificuser.phtml:25
 #: modules/userreports/views/scripts/partials/media/index.phtml:25
 msgid "Media Title"
-msgstr "Mediatitel"
+msgstr "Titel på media"
 
 #: modules/userreports/controllers/ContributionController.php:72
 #: modules/userreports/controllers/EngagementController.php:83
@@ -4168,7 +4150,7 @@ msgstr "Mediatitel"
 #: modules/userreports/views/scripts/partials/contribution/mediaspecificuser.phtml:27
 #: modules/userreports/views/scripts/partials/engagement/mediaspecificuser.phtml:26
 msgid "View Drop-Off"
-msgstr "Visa avlämning"
+msgstr "Visa bortfall"
 
 #: modules/userreports/controllers/EngagementController.php:31
 msgid "Unique videos"
@@ -4204,7 +4186,7 @@ msgstr "Laddar till spelningskvot"
 
 #: modules/userreports/controllers/MediaController.php:34
 msgid "Media item"
-msgstr "Mediaföremål"
+msgstr "Mediafiler"
 
 #: modules/userreports/controllers/MediaController.php:35
 msgid "Media ID"
@@ -4212,7 +4194,7 @@ msgstr "Media ID"
 
 #: modules/userreports/controllers/MediaController.php:38
 msgid "Plays In Channel"
-msgstr "Spelas i kanal"
+msgstr "Spelningar i kanal"
 
 #: modules/userreports/controllers/MediaController.php:39
 #: modules/userreports/views/scripts/partials/media/index.phtml:28
@@ -4228,7 +4210,7 @@ msgstr "Genomsnittlig avlämningsprocent"
 #: modules/userreports/models/Tabs.php:21
 #: modules/userreports/views/scripts/partials/dashboard/entry.phtml:135
 msgid "Quiz Questions"
-msgstr "Quiz frågor"
+msgstr "Quiz-frågor"
 
 #: modules/userreports/controllers/QuizQuestionsController.php:98
 #: modules/userreports/controllers/QuizUsersController.php:182
@@ -4240,24 +4222,20 @@ msgstr "Fråga"
 #: modules/userreports/controllers/QuizUsersController.php:108
 #: modules/userreports/views/scripts/quiz-questions/print.phtml:44
 #: modules/userreports/views/scripts/quiz-users/print.phtml:45
-#, fuzzy
-#| msgid "Answered "
 msgid "Answered Right"
-msgstr "Besvarad "
+msgstr "Besvarad rätt"
 
 #: modules/userreports/controllers/QuizQuestionsController.php:100
 #: modules/userreports/controllers/QuizUsersController.php:109
 #: modules/userreports/views/scripts/quiz-questions/print.phtml:45
 #: modules/userreports/views/scripts/quiz-users/print.phtml:46
-#, fuzzy
-#| msgid "Answered "
 msgid "Answered Wrong"
-msgstr "Besvarad "
+msgstr "Besvarad fel"
 
 #: modules/userreports/controllers/QuizQuestionsController.php:101
 #: modules/userreports/views/scripts/quiz-questions/print.phtml:46
 msgid "Total % Right"
-msgstr ""
+msgstr "Total % rätt"
 
 #: modules/userreports/controllers/QuizQuestionsController.php:148
 #: modules/userreports/controllers/QuizUsersController.php:183
@@ -4283,21 +4261,17 @@ msgstr "fel"
 #: modules/userreports/models/Tabs.php:22
 #: modules/userreports/views/scripts/partials/dashboard/entry.phtml:124
 msgid "Quiz Users"
-msgstr "Quiz Användare"
+msgstr "Quiz-användare"
 
 #: modules/userreports/controllers/QuizUsersController.php:106
 #: modules/userreports/views/scripts/quiz-users/print.phtml:43
-#, fuzzy
-#| msgid "First Name"
 msgid "User First Name"
-msgstr "Förnamn"
+msgstr "Användarens förnamn"
 
 #: modules/userreports/controllers/QuizUsersController.php:107
 #: modules/userreports/views/scripts/quiz-users/print.phtml:44
-#, fuzzy
-#| msgid "Last Name"
 msgid "User Last Name"
-msgstr "Efternamn"
+msgstr "Användarens efternamn"
 
 #: modules/userreports/controllers/QuizUsersController.php:110
 #: modules/userreports/views/scripts/quiz-users/print.phtml:47
@@ -4311,11 +4285,11 @@ msgstr "Användarsvar"
 #: modules/userreports/models/Quiz/Analytics.php:480
 #: modulesCustom/core/recscheduling/views/helpers/ListResourceNames.php:19
 msgid "N/A"
-msgstr "Inte tillgänglig"
+msgstr "Inte tilllämpligt"
 
 #: modules/userreports/models/Tabs.php:14
 msgid "Dashboard"
-msgstr "Instrumentbräda"
+msgstr "Översikt"
 
 #: modules/userreports/models/Tabs.php:16
 msgid "Engagement"
@@ -4386,10 +4360,8 @@ msgid "Presenters"
 msgstr "Presenterare"
 
 #: modulesCustom/core/events/models/Events.php:179
-#, fuzzy
-#| msgid "Presenters"
 msgid "Presenter(s)"
-msgstr "Presenterare"
+msgstr "Presentatör(er)"
 
 #: modulesCustom/core/kaf/blackboard/models/Blackboard.php:170
 msgid "(unavailable course)"
@@ -4416,7 +4388,7 @@ msgstr "Mediagalleri"
 
 #: modulesCustom/core/kaf/hostedfeaturedmedia/models/Hostedfeaturedmedia.php:66
 msgid "Featured"
-msgstr "Kännetecknad"
+msgstr "Framhävd"
 
 #: modulesCustom/core/kpw2html/controllers/EntryController.php:18
 msgid ""
@@ -4436,7 +4408,7 @@ msgstr ""
 
 #: modulesCustom/core/kwebcast/controllers/EntryController.php:117
 msgid "Webcast Event created successfully."
-msgstr "Webbutsändelse av händelse skapades korrekt."
+msgstr "Webbutsändelse av händelse skapades framgångsrikt."
 
 #: modulesCustom/core/kwebcast/controllers/EntryController.php:124
 msgid "Failed to create Webcast Event."
@@ -4448,6 +4420,9 @@ msgid ""
 "                            Please check the logs and contact your account "
 "admin"
 msgstr ""
+"QNA event notification template deployment failed. \n"
+"                            Please check the logs and contact your account "
+"admin"
 
 #: modulesCustom/core/kwebcast/models/Kwebcast.php:255
 msgid "Webcast Events"
@@ -4463,7 +4438,7 @@ msgstr "Kommande händelse"
 
 #: modulesCustom/core/kwebcast/models/Kwebcast.php:351
 msgid "Ended"
-msgstr ""
+msgstr "Avslutades"
 
 #: modulesCustom/core/kwebcast/models/Kwebcast.php:356
 msgid "Starting soon"
@@ -4541,19 +4516,19 @@ msgstr "Ta bort från enheten"
 
 #: modulesCustom/core/native/controllers/IndexController.php:34
 msgid "Bad player version"
-msgstr "Dålig spelversion"
+msgstr "Dålig spelar-version"
 
 #: modulesCustom/core/native/controllers/IndexController.php:37
 msgid ""
 "The version of your app is not up to date. Click here to update to the "
 "latest version."
 msgstr ""
-"Din apps version är inte aktualiserad. Klicka här för att uppdatera den till "
+"Din apps version är inte uppdaterad. Klicka här för att uppdatera den till "
 "den senaste versionen."
 
 #: modulesCustom/core/native/models/Native.php:98
 msgid "App Settings"
-msgstr "App inställningar"
+msgstr "Inställningar för app"
 
 #: modulesCustom/core/native/models/Native.php:101
 msgid "Media on Device"
@@ -4642,10 +4617,8 @@ msgid "Save and Exit"
 msgstr "Spara och avsluta"
 
 #: modulesCustom/core/recscheduling/forms/CreateEvent.php:281
-#, fuzzy
-#| msgid "User %1 does not exist"
 msgid "User doesn't exist"
-msgstr "Användare %1 existerar inte"
+msgstr "Användaren existerar inte"
 
 #: modulesCustom/core/recscheduling/forms/EditEntrySubForm.php:28
 msgid ""
@@ -4653,7 +4626,7 @@ msgid ""
 "or add collaborators"
 msgstr ""
 "Komplettera alla de obligatoriska fälten och spara händelsen före du kan "
-"publicera den och lägga till medarbetare"
+"publicera den eller lägga till medarbetare"
 
 #: modulesCustom/core/recscheduling/forms/EditEntrySubForm.php:38
 msgid ""
@@ -4772,7 +4745,7 @@ msgstr "Resurser"
 
 #: modulesCustom/core/recscheduling/forms/EventsFilter.php:46
 msgid "Filter Resources"
-msgstr "Filterresurser"
+msgstr "Filtrera resurser"
 
 #: modulesCustom/core/recscheduling/models/Recscheduling.php:263
 #: modulesCustom/core/recscheduling/models/Recscheduling.php:281
@@ -4958,7 +4931,7 @@ msgstr "Åtgärd"
 #: application/views/scripts/admin/clear-cache.dialog.phtml:16
 #: application/views/scripts/admin/clear-cache.phtml:10
 msgid "The cache was flushed successfuly."
-msgstr "Cachen tömdes korrekt."
+msgstr "Cachen tömdes framgångsrikt."
 
 #: application/views/scripts/admin/clear-cache.dialog.phtml:17
 #: application/views/scripts/admin/enable-debug.dialog.phtml:17
@@ -4994,7 +4967,7 @@ msgstr "Importera konfigurering till en fil"
 
 #: application/views/scripts/admin/config.phtml:36
 msgid "Create uiConfs for Widgets"
-msgstr "Skapa uikonfig för saker"
+msgstr "Skapa uikonfig för widgets"
 
 #: application/views/scripts/admin/config.phtml:37
 msgid "Create Custom Metadata profiles"
@@ -5017,7 +4990,7 @@ msgstr "Aktivera användningsvillkor"
 #: application/views/scripts/admin/deploy.dialog.phtml:75
 #: modulesCustom/core/kaf/browseandembed/views/scripts/index/deploy.dialog.phtml:61
 msgid "Deployment"
-msgstr "Gruppering"
+msgstr "Driftsättning"
 
 #: application/views/scripts/admin/enable-debug.dialog.phtml:15
 msgid ""
@@ -5042,7 +5015,7 @@ msgstr "Unikt verkställande Id"
 
 #: application/views/scripts/admin/log-viewer.phtml:40
 msgid "Debug Level"
-msgstr "Avsökningsnivå"
+msgstr "Avbuggnings-nivå"
 
 #: application/views/scripts/admin/log-viewer.phtml:52
 msgid "Log File"
@@ -5073,10 +5046,8 @@ msgid "Nothing found in the log file"
 msgstr "Inget hittades i loggfilen"
 
 #: application/views/scripts/admin/login.phtml:16
-#, fuzzy
-#| msgid "Kaltura MediaSpace Administration Area"
 msgid "%1 Administration Area"
-msgstr "Kaltura MediaSpace Administration Område"
+msgstr "%1 Administration Område"
 
 #: application/views/scripts/admin/login.phtml:17
 msgid "Please login using your Kaltura account"
@@ -5084,7 +5055,7 @@ msgstr "Logga in via ditt Kaltura - konto"
 
 #: application/views/scripts/admin/unit-tests.phtml:12
 msgid "Unit tests create test categories and content"
-msgstr "Enhet test skapar testkategorier och innehåll"
+msgstr "Enhetstest: Skapa testkategorier och innehåll"
 
 #: application/views/scripts/admin/unit-tests.phtml:13
 msgid ""
@@ -5149,11 +5120,11 @@ msgstr "Skicka"
 
 #: application/views/scripts/category/remove-entry.dialog.phtml:7
 msgid "You are not allowed to remove this media."
-msgstr "Du är inte behörig att radera den här median."
+msgstr "Du är inte behörig att ta bort den här mediafilen."
 
 #: application/views/scripts/category/remove-entry.dialog.phtml:10
 msgid "Are you sure you want to remove this item from the"
-msgstr "Är du säker på att du vill ta bort det här föremålet från"
+msgstr "Är du säker på att du vill ta bort det här mediafilen från"
 
 #: application/views/scripts/category/remove-entry.dialog.phtml:17
 #: application/views/scripts/partials/category/grid/buttons.phtml:43
@@ -5182,7 +5153,7 @@ msgstr "Är du säker på att du vill radera %1?"
 #: modules/chapters/views/scripts/entry/delete.dialog.phtml:15
 #: modules/comments/views/scripts/index/delete.dialog.phtml:17
 msgid "Delete Confirmation"
-msgstr "Radera bekräftat"
+msgstr "Radering bekräftad"
 
 #: application/views/scripts/channels/edit.phtml:35
 msgid "Delete Channel"
@@ -5290,10 +5261,8 @@ msgstr "Inga fler inlägg hittades."
 
 #: application/views/scripts/channels/set-thumbnail.ajax.phtml:26
 #: application/views/scripts/channels/set-thumbnail.ajax.phtml:44
-#, fuzzy
-#| msgid "Channel Thumbnail"
 msgid "Channel thumbnail"
-msgstr "Kanal miniatyr"
+msgstr "Miniatyr för kanal"
 
 #: application/views/scripts/channels/view-reset.ajax.phtml:69
 #: application/views/scripts/channels/view.ajax.phtml:49
@@ -5322,7 +5291,7 @@ msgstr "Miniatyr för kanal %1"
 #: modules/history/views/scripts/index/index.ajax.phtml:55
 #: modules/userreports/views/scripts/media/index.ajax.phtml:53
 msgid "There are no more media items."
-msgstr "Det finns inga fler mediaföremål."
+msgstr "Det finns inga fler mediafiler."
 
 #: application/views/scripts/channels/view.phtml:70
 #: application/views/scripts/gallery/view.phtml:63
@@ -5389,16 +5358,16 @@ msgid ""
 "will no longer appear in your “My Media” list."
 msgstr ""
 "Observera: Så fort du ändrat ägare kommer du inte att kunna redigera denna "
-"media och den kommer inte längre att synas i din lista \"Min media\"."
+"mediafil och den kommer inte längre att synas i din lista \"Min media\"."
 
 #: application/views/scripts/entry/change-owner.dialog.phtml:24
 #: application/views/scripts/partials/entry/edit/mediaCollaboration.phtml:22
 msgid "Change media owner"
-msgstr "Ändra media ägare"
+msgstr "Ändra ägare av mediafil"
 
 #: application/views/scripts/entry/check-status.ajax.phtml:22
 msgid "Your media is ready."
-msgstr "Din media är redo"
+msgstr "Din media är redo."
 
 #: application/views/scripts/entry/check-status.ajax.phtml:23
 msgid " Please "
@@ -5414,7 +5383,7 @@ msgstr "för att uppdatera all information."
 
 #: application/views/scripts/entry/delete-collaborator.dialog.phtml:7
 msgid "Are you sure you want to remove %1 as a media collaborator?"
-msgstr "Är du säker på att du vill ta bort %1 som media medarbetare?"
+msgstr "Är du säker på att du vill ta bort %1 som media-medarbetare?"
 
 #: application/views/scripts/entry/delete.dialog.phtml:9
 msgid "You are not allowed to delete this media."
@@ -5426,7 +5395,7 @@ msgstr "Är du säker på att du permanent vill radera %1 föremål?"
 
 #: application/views/scripts/entry/delete.dialog.phtml:18
 msgid "Are you sure you want to delete this media?"
-msgstr "Är du säker på att du vill radera den här median?"
+msgstr "Är du säker på att du vill radera den här mediafilen?"
 
 #: application/views/scripts/entry/done.ajax.phtml:42
 msgid "Your changes have been saved."
@@ -5456,13 +5425,13 @@ msgstr "Inga inlägg"
 #: application/views/scripts/error/error.ajax.phtml:22
 #: application/views/scripts/error/error.phtml:22
 msgid "Stack trace:"
-msgstr "Trava spår:"
+msgstr "Stack trace:"
 
 #: application/views/scripts/error/404.phtml:25
 #: application/views/scripts/error/error.ajax.phtml:26
 #: application/views/scripts/error/error.phtml:26
 msgid "Request Parameters:"
-msgstr "Förfrågan parametrar"
+msgstr "Parametrar för begäran:"
 
 #: application/views/scripts/error/error.ajax.phtml:17
 #: application/views/scripts/error/error.phtml:17
@@ -5537,7 +5506,7 @@ msgstr ""
 #: application/views/scripts/install/done.phtml:19
 #: application/views/scripts/upgrade/upgrade-complete.phtml:19
 msgid "Note: "
-msgstr "Observera: "
+msgstr "Anteckning: "
 
 #: application/views/scripts/install/done.phtml:17
 #: application/views/scripts/upgrade/upgrade-complete.phtml:19
@@ -5546,8 +5515,8 @@ msgid ""
 "required configurations. Refer to the installation and setup guide to "
 "complete the required configurations."
 msgstr ""
-"en del funktioner kan vara begränsade eller isönder fram tills du "
-"kompletterar alla de obligatoriska konfigurationerna. Vänd dig till "
+"en del funktioner kan vara begränsade eller trasiga fram tills du "
+"kompletterar de obligatoriska konfigurationerna. Vänd dig till "
 "installations- och  inställningsguide för att komplettera de obligatoriska "
 "konfigurationerna."
 
@@ -5555,7 +5524,7 @@ msgstr ""
 msgid ""
 "uiConfs are updated with the latest versions of widgets and functionality."
 msgstr ""
-"uiConfs uppdaterades med de senaste versionerna av manicker och "
+"uiConfs uppdaterades med de senaste versionerna av widgets och "
 "funktionalitet."
 
 #: application/views/scripts/install/done.phtml:19
@@ -5655,7 +5624,7 @@ msgstr "Viewhook namn"
 
 #: application/views/scripts/kb/viewfiles.phtml:117
 msgid "Module View Files"
-msgstr "Modul visa filer"
+msgstr "Modul Visa filer"
 
 #: application/views/scripts/kb/viewhooks.phtml:13
 msgid "Core"
@@ -5750,12 +5719,12 @@ msgstr "Uppladdad av"
 
 #: application/views/scripts/partials/category/grid/entry.phtml:52
 msgid "Click to expand media info"
-msgstr ""
+msgstr "Klicka för att visa media-info"
 
 #: application/views/scripts/partials/category/tabs/media/gallery.phtml:11
 #: application/views/scripts/playlist/view.phtml:11
 msgid "Grid view"
-msgstr "Nätöversikt"
+msgstr "Rutmönster-vy"
 
 #: application/views/scripts/partials/category/tabs/media/gallery.phtml:14
 #: application/views/scripts/partials/mymedia/filterBar.phtml:14
@@ -5765,10 +5734,8 @@ msgstr "Nätöversikt"
 #: modulesCustom/core/eloqua/views/scripts/partials/courseGalleryResultsTable.phtml:13
 #: modulesCustom/core/kaf/browseandembed/views/scripts/partials/courseGalleryResultsTable.phtml:13
 #: modulesCustom/core/kaf/browseandembed/views/scripts/partials/mediaResultsTable.phtml:8
-#, fuzzy
-#| msgid "File type"
 msgid "View type"
-msgstr "Filtyp"
+msgstr "Vy"
 
 #: application/views/scripts/partials/category/tabs/media/gallery.phtml:49
 #: application/views/scripts/partials/mymedia/filterBar.phtml:12
@@ -5785,7 +5752,7 @@ msgstr " Media"
 
 #: application/views/scripts/partials/channel/tabs.phtml:24
 msgid "Toggle channel search bar"
-msgstr ""
+msgstr "Växla sökfält för kanal"
 
 #: application/views/scripts/partials/channel/upload_thumbnail.phtml:33
 #: application/views/scripts/partials/upload/mediaBox/chunk.phtml:47
@@ -5857,7 +5824,7 @@ msgstr "Rubrik 6"
 
 #: application/views/scripts/partials/editingTools.phtml:29
 msgid "Bold"
-msgstr "Fetstil"
+msgstr "Fet stil"
 
 #: application/views/scripts/partials/editingTools.phtml:30
 msgid "Italic"
@@ -5869,11 +5836,11 @@ msgstr "Understruken"
 
 #: application/views/scripts/partials/editingTools.phtml:34
 msgid "Unordered list"
-msgstr "Inte kopplad lista"
+msgstr "Punktlista"
 
 #: application/views/scripts/partials/editingTools.phtml:35
 msgid "Ordered list"
-msgstr "Kopplad lista"
+msgstr "Numrerad lista"
 
 #: application/views/scripts/partials/editingTools.phtml:36
 msgid "Outdent"
@@ -5948,26 +5915,25 @@ msgid "Enter a Collaborator"
 msgstr "Lägg till en medarbetare"
 
 #: application/views/scripts/partials/entry/edit/addCollaboratorForm.phtml:19
-#, fuzzy
-#| msgid "Set permission"
 msgid "Select Permissions"
-msgstr "Ställ in tillåtelse"
+msgstr "Välj rättigheter"
 
 #: application/views/scripts/partials/entry/edit/editCollaboratorForm.phtml:9
 msgid "You must select at least one permission."
-msgstr "Du måste välja åtminstone ett tillstånd."
+msgstr "Du måste välja åtminstone en rättighet."
 
 #: application/views/scripts/partials/entry/edit/mediaCollaboration.phtml:17
 msgid ""
 "Change who can administer and is credited with media. Note that this is not "
 "necessarily the copyright owner of the content."
 msgstr ""
-"Ändra vem som kan administrera och som är krediterad på media. Notera att "
-"det inte är nödvändigt att få copyright av innehållets ägare."
+"Ändra vem som kan administrera och som står som ägare av mediafilen. Notera "
+"att ägaren inte nödvändigtvis är personen med upphovsrätten till innehållet "
+"i mediafilen."
 
 #: application/views/scripts/partials/entry/edit/mediaCollaboration.phtml:28
 msgid "Media Co-Editors and Co-Publishers"
-msgstr "Media medutgivare och medpublicister"
+msgstr "Mediafilens medutgivare och medpublicister"
 
 #: application/views/scripts/partials/entry/edit/mediaCollaboration.phtml:29
 msgid ""
@@ -5975,7 +5941,7 @@ msgid ""
 "assets (such as caption files) and/or allowed to publish"
 msgstr ""
 "Välj användare som får redigera innehållet i metadata och relaterade "
-"tillgångar (såsom bildtexfiler) och/eller tillåts att publicera"
+"tillgångar (som t.ex. undertexter) och/eller tillåts att publicera"
 
 #: application/views/scripts/partials/entry/edit/mediaCollaboration.phtml:39
 #: application/views/scripts/partials/entry/edit/mediaCollaborationUpload.phtml:30
@@ -6015,32 +5981,28 @@ msgstr "Media behandlas"
 
 #: application/views/scripts/partials/entry/edit/publish.phtml:13
 msgid "This media was viewed %1 times and played %2 times."
-msgstr "Denna media visades %1 gånger och spelades upp %2 gånger."
+msgstr "Denna mediafil visades %1 gånger och spelades upp %2 gånger."
 
 #: application/views/scripts/partials/entry/edit/publish.phtml:20
 msgid "This media was viewed %1 times."
-msgstr "Denna media har setts %1 gånger."
+msgstr "Denna mediafil har setts %1 gånger."
 
 #: application/views/scripts/partials/entry/list/moduleData.phtml:32
 #: application/views/scripts/partials/entry/list/moduleData.phtml:34
 msgid "See where the media is published"
-msgstr "Se var median är publicerad"
+msgstr "Se var mediafilen är publicerad"
 
 #: application/views/scripts/partials/entry/list/stats.phtml:12
-#, fuzzy
-#| msgid "likes"
 msgid " likes"
-msgstr "likes"
+msgstr " likes"
 
 #: application/views/scripts/partials/entry/list/stats.phtml:17
-#, fuzzy
-#| msgid "views"
 msgid " views"
-msgstr "views"
+msgstr " views"
 
 #: application/views/scripts/partials/entry/player.phtml:18
 msgid "Error processing your media"
-msgstr "Fel när din media behandlades"
+msgstr "Fel när din mediafil behandlades"
 
 #: application/views/scripts/partials/entry/stats.phtml:35
 msgid "like"
@@ -6112,7 +6074,7 @@ msgstr "Delade arkiv som jag är medlem i"
 
 #: application/views/scripts/partials/filter/channels/viewOrder.phtml:15
 msgid "Members & Subscribers"
-msgstr "Medlemmar & Prenumeranter"
+msgstr "Medlemmar och prenumeranter"
 
 #: application/views/scripts/partials/filter/channels/viewOrder.phtml:16
 msgid "Media Count"
@@ -6124,10 +6086,8 @@ msgid "Sort by"
 msgstr "Sorterad efter"
 
 #: application/views/scripts/partials/filter/dropDownQueryFilter.phtml:26
-#, fuzzy
-#| msgid "rejected"
 msgid "selected"
-msgstr "Nekad"
+msgstr "vald"
 
 #: application/views/scripts/partials/filter/media/mediaCollaboration.phtml:17
 msgid "Media I Own"
@@ -6166,7 +6126,7 @@ msgstr "Behandlar presentationen, var god vänta."
 
 #: application/views/scripts/partials/form/element/fileUpload/slides/postSuccessMessage.phtml:9
 msgid "Presentation is ready."
-msgstr "Presentationen är redo"
+msgstr "Presentationen är redo."
 
 #: application/views/scripts/partials/form/element/fileUpload/slides/postSuccessMessage.phtml:17
 #, php-format
@@ -6186,26 +6146,18 @@ msgid "Search all media"
 msgstr "Sök all media"
 
 #: application/views/scripts/partials/header/headerSearch.phtml:24
-#, fuzzy
-#| msgid "Search"
 msgid "Submit Search"
 msgstr "Sök"
 
 #: application/views/scripts/partials/header/localesMenu.phtml:18
-#, fuzzy
-#| msgid "Select a language"
 msgid "Select language"
 msgstr "Välj språk"
 
 #: application/views/scripts/partials/header/localesMenu.phtml:21
-#, fuzzy
-#| msgid "Select a language"
 msgid "Selected language: %1"
-msgstr "Välj språk"
+msgstr "Välj språk: %1"
 
 #: application/views/scripts/partials/header/mobile/menu.phtml:11
-#, fuzzy
-#| msgid "Actions"
 msgid "User Actions"
 msgstr "Åtgärder"
 
@@ -6215,12 +6167,12 @@ msgstr "Topplista"
 
 #: application/views/scripts/partials/layout/headScript.phtml:39
 msgid "One result is available, press enter to select it."
-msgstr "Ett resultat finns tillgängligt, tryck enter för att välja det."
+msgstr "Ett resultat finns tillgängligt, tryck på retur för att välja det."
 
 #: application/views/scripts/partials/layout/headScript.phtml:40
 msgid "%1 results are available, use up and down arrow keys to navigate."
 msgstr ""
-"%1 resultat finns tillgängliga, använd upp och ner piltangenterna för att "
+"%1 resultat finns tillgängliga, använd upp- och ner piltangenterna för att "
 "navigera."
 
 #: application/views/scripts/partials/layout/headScript.phtml:41
@@ -6241,11 +6193,11 @@ msgstr "Du kan endast välja %1 %2"
 
 #: application/views/scripts/partials/layout/headScript.phtml:45
 msgid "Loading more results…"
-msgstr "Laddar fler resultat..."
+msgstr "Laddar fler resultat…"
 
 #: application/views/scripts/partials/layout/headScript.phtml:46
 msgid "Searching…"
-msgstr "Söker..."
+msgstr "Söker.…"
 
 #: application/views/scripts/partials/layout/headScript.phtml:47
 msgid "100%"
@@ -6253,17 +6205,15 @@ msgstr "100%"
 
 #: application/views/scripts/partials/layout/siteHeader.phtml:45
 msgid "Open side bar"
-msgstr ""
+msgstr "Öppna sidovy"
 
 #: application/views/scripts/partials/layout/siteHeader.phtml:97
-#, fuzzy
-#| msgid "Top"
 msgid "top"
-msgstr "Topplista"
+msgstr "topplista"
 
 #: application/views/scripts/partials/layout/siteHeader.phtml:136
 msgid "side"
-msgstr ""
+msgstr "sida"
 
 #: application/views/scripts/partials/localization/ksu.phtml:16
 #: modules/cssupload/views/scripts/partials/ksu.phtml:16
@@ -6278,15 +6228,13 @@ msgid ""
 "search results. 2 letters names, put inside quotation marks."
 msgstr ""
 "Ange åtminstone 3 tecken per sökt namn för att få förslag på sökresultat. "
-"Namn med 2 bokstäver, sätts inom citationstecken"
+"Namn med 2 bokstäver sätts inom citationstecken."
 
 #: application/views/scripts/partials/mymedia/entry/entriesTable.phtml:47
 #: modules/category/categorymoderation/views/scripts/partials/moderationResultsTable.phtml:13
 #: modules/channels/channelmoderation/views/scripts/partials/moderationResultsTable.phtml:13
-#, fuzzy
-#| msgid "Select Playlists:"
 msgid "Select All Entries"
-msgstr "Välj spellistor:"
+msgstr "Välj spellistor"
 
 #: application/views/scripts/partials/mymedia/entry/entriesTable.phtml:73
 #: modules/channelplaylists/views/scripts/partials/entries/source-table.phtml:58
@@ -6299,10 +6247,8 @@ msgstr "Inga inlägg hittades"
 
 #: application/views/scripts/partials/mymedia/entry/entry.phtml:96
 #: modules/history/views/scripts/partials/entry.phtml:55
-#, fuzzy
-#| msgid "Link to this media"
 msgid "Click to go to media"
-msgstr "Länk till den här median"
+msgstr "Klicka för att gå till media"
 
 #: application/views/scripts/partials/mymedia/entry/entry.phtml:96
 #: modules/history/views/scripts/partials/entry.phtml:55
@@ -6310,10 +6256,8 @@ msgid "more%1"
 msgstr "mer%1"
 
 #: application/views/scripts/partials/myplaylist/entry.phtml:26
-#, fuzzy
-#| msgid "Remove from Playlist"
 msgid "Remove media %1 from playlist"
-msgstr "Ta bort från spellistan"
+msgstr "Ta bort media %1 från spellistan"
 
 #: application/views/scripts/partials/myplaylist/playlist.phtml:14
 msgid "Save Changes"
@@ -6365,14 +6309,12 @@ msgstr "Sök media"
 #: application/views/scripts/partials/search/mobile/searchBar.phtml:27
 #: application/views/scripts/partials/search/searchBar.phtml:40
 #: modules/captions/views/scripts/search/entry.phtml:9
-#, fuzzy
-#| msgid "Clear Cache"
 msgid "Clear Search"
 msgstr "Töm cache"
 
 #: application/views/scripts/partials/search/mobile/searchIcon.phtml:12
 msgid "Toggle search bar"
-msgstr ""
+msgstr "Växla sökfältet"
 
 #: application/views/scripts/partials/setup/requirements-table.phtml:12
 msgid "You can proceed with the Kaltura %1 %2 setup process."
@@ -6380,7 +6322,9 @@ msgstr "Du kan fortsätta med Kaltura %1%2 uppläggningsprocess."
 
 #: application/views/scripts/partials/setup/requirements-table.phtml:14
 msgid "Some requirements failed. Please fix and refresh the page."
-msgstr "Några utav kraven misslyckades. Korrigera dem och uppdatera sidan."
+msgstr ""
+"Några av förutsättningarna misslyckades. Korrigera obligatorisk information "
+"och uppdatera sidan."
 
 #: application/views/scripts/partials/upload/mediaBox/chunk.phtml:47
 #: application/views/scripts/partials/upload/mediaBox/ksu.phtml:55
@@ -6429,7 +6373,7 @@ msgstr "Spela in från webbkamera"
 #: application/views/scripts/partials/widgets/kea.phtml:3
 #: modules/entryTypes/quiz/views/scripts/partials/breadcrumbs.phtml:32
 msgid "Quiz Editor"
-msgstr "Quiz redigerare"
+msgstr "Quiz-redigerare"
 
 #: application/views/scripts/partials/widgets/kea.phtml:22
 msgid "The editor is not supported on this screen size"
@@ -6467,7 +6411,7 @@ msgstr "Inga fler gallerier hittades."
 
 #: application/views/scripts/search/index.phtml:22
 msgid "media that include the text in its metadata"
-msgstr "Media som inkluderar text i sin metadata"
+msgstr "media som inkluderar text i sin metadata"
 
 #: application/views/scripts/upgrade/additional-info.phtml:10
 msgid "Upgrade - Additional Information"
@@ -6483,11 +6427,11 @@ msgstr "Före uppgradering, spara dina konfigureringsfiler"
 
 #: application/views/scripts/upgrade/deploy-error.phtml:10
 msgid "Upgrade - Deployment Errors"
-msgstr "Uppgradera - grupperingsfel"
+msgstr "Uppgradera - Driftsättningsfel"
 
 #: application/views/scripts/upgrade/missing-requirements.phtml:10
 msgid "Upgrade - Missing Requirements"
-msgstr "Uppgradera - Saknade krav"
+msgstr "Uppgradera - Saknade nödvändiga förutsättningar"
 
 #: application/views/scripts/upgrade/upgrade-complete.phtml:10
 msgid "Upgrade Completed"
@@ -6495,7 +6439,7 @@ msgstr "Uppgradering färdig"
 
 #: application/views/scripts/upgrade/upgrade-complete.phtml:15
 msgid "Upgrade to version %1 completed successfully"
-msgstr "Upgradering till version %1 avslutades korrekt"
+msgstr "Upgradering till version %1 avslutades framgångsrikt"
 
 #: application/views/scripts/upgrade/upgrade-complete.phtml:16
 msgid "You can visit your Kaltura MediaSpace site"
@@ -6540,7 +6484,7 @@ msgid ""
 "Click \"Add new Playlist\" and enter name, The media will be added to "
 "playlist"
 msgstr ""
-"Klicka på \"Lägg till ny spellista\" och skriv namn, Median kommer att "
+"Klicka på \"Lägg till ny spellista\" och skriv namn. Mediafilen kommer att "
 "läggas till i din spellista"
 
 #: application/views/scripts/user/no-playlists.phtml:17
@@ -6551,7 +6495,7 @@ msgid ""
 msgstr ""
 "Så fort du har skapat en spellista, kommer den att synas på den här sidan "
 "där du kan förhandsgranska den, redigera mediasekvens, välja spellistans "
-"design och få den inbäddade koden"
+"design och få den inbäddade koden."
 
 #: application/views/scripts/user/unauthorized.phtml:6
 #: application/views/scripts/user/unauthorized.phtml:9
@@ -6571,16 +6515,13 @@ msgid "Add Media To Gallery"
 msgstr "Lägg till media i galleriet"
 
 #: modules/addcontent/views/scripts/partials/addContent.phtml:23
-#, fuzzy
-#| msgid "Publish all selected media items"
 msgid "Publish selected media"
-msgstr "Publicera i alla valda mediaföremål"
+msgstr "Publicera valda mediafiler"
 
 #: modules/addcontent/views/scripts/partials/addContent.phtml:46
 msgid "Select one or more media items to add to the current category"
 msgstr ""
-"Välj ett eller fler media föremål som ska läggas till i den aktuella "
-"kategorin"
+"Välj ett eller fler mediafiler för att lägga till i den aktuella kategorin"
 
 #: modules/addcontent/views/scripts/partials/shared-repositories.phtml:15
 msgid "Search Repository"
@@ -6598,8 +6539,7 @@ msgstr "Visas i spellistor:"
 #: modules/addtoplaylists/views/scripts/index/bulk.ajax.phtml:15
 msgid "No media selected, Please select at least one media to add to playlist."
 msgstr ""
-"Ingen media valdes, välj åtminstone en media som ska läggas till i "
-"spellistan."
+"Ingen media vald. Välj minst en mediafil som ska läggas till i spellistan."
 
 #: modules/addtoplaylists/views/scripts/index/bulk.ajax.phtml:27
 #: modules/addtoplaylists/views/scripts/partials/index.phtml:12
@@ -6607,8 +6547,8 @@ msgid ""
 "Playlists allow you to grab embed code for displaying a player and a "
 "collection of media."
 msgstr ""
-"Spellistan möjliggör det för dig att få inbäddad kod för att visa en spelare "
-"och en mediasamling."
+"Spellistan möjliggör det för dig att kopiera kod för inbäddning på webbsida "
+"som gör det möjligt att visa en spelare och en samling media-filer."
 
 #: modules/addtoplaylists/views/scripts/index/bulk.ajax.phtml:29
 msgid "You can add media to one or more playlists."
@@ -6629,7 +6569,7 @@ msgstr ""
 
 #: modules/addtoplaylists/views/scripts/partials/index.phtml:49
 msgid "This media is still being converted"
-msgstr "Denna media konverteras fortfarande"
+msgstr "Denna mediafil konverteras fortfarande"
 
 #: modules/addtoplaylists/views/scripts/partials/index.phtml:56
 msgid "Please fill out all the required fields first"
@@ -6649,7 +6589,7 @@ msgstr "Skapa"
 
 #: modules/addtoplaylists/views/scripts/partials/managePlaylists.phtml:49
 msgid "No Playlist exist , please create new playlist."
-msgstr "Det finns ingen spellista, skapa en ny spellista."
+msgstr "Det finns ingen spellista. Skapa en ny spellista."
 
 #: modules/attachments/views/scripts/index/add.dialog.phtml:14
 msgid "Upload Attachment"
@@ -6675,7 +6615,7 @@ msgstr ""
 msgid ""
 "Provide end-users with a brief description of this files content (optional)"
 msgstr ""
-"Ge slutanvändaren en enkel beskrivning om den här filens innehåll (valfritt)"
+"Ge slutanvändaren en kort beskrivning om den här filens innehåll (valfritt)"
 
 #: modules/attachments/views/scripts/partials/tabcontent.phtml:5
 msgid "Upload File"
@@ -6699,19 +6639,19 @@ msgstr "Inga bilagor har lagts till i median"
 
 #: modules/captions/views/scripts/index/delete.ajax.phtml:41
 msgid "There was an error deleting the caption file."
-msgstr "Ett fel uppstod när bildtext filen raderades."
+msgstr "Ett fel uppstod när undertext-filen raderades."
 
 #: modules/captions/views/scripts/index/delete.dialog.phtml:8
 msgid "Are you sure you want to delete this caption file?"
-msgstr "Är du säker på att du vill radera den här bildtext filen?"
+msgstr "Är du säker på att du vill radera den här undertext-filen?"
 
 #: modules/captions/views/scripts/index/edit.phtml:31
 msgid "Upload captions file"
-msgstr "Ladda upp bildtext fil"
+msgstr "Ladda upp undertext-fil"
 
 #: modules/captions/views/scripts/index/upload.dialog.phtml:22
 msgid "Upload a captions file"
-msgstr "Ladda upp en bildtext fil"
+msgstr "Ladda upp en undertext-fil"
 
 #: modules/captions/views/scripts/partials/captionsHeader.phtml:9
 #: modules/captions/views/scripts/partials/captionsHeaderMobile.phtml:9
@@ -6720,15 +6660,15 @@ msgstr "Filtyp"
 
 #: modules/captions/views/scripts/partials/captionsWrapper.phtml:24
 msgid "No Captions have been added to media"
-msgstr "Inga bildtexter har lagts till media"
+msgstr "Inga undertexter har lagts till media"
 
 #: modules/captions/views/scripts/partials/captionsWrapper.phtml:25
 msgid "Begin by uploading a caption file"
-msgstr "Börja med att ladda upp en bildtext fil"
+msgstr "Börja med att ladda upp en undertext-fil"
 
 #: modules/captions/views/scripts/partials/captionsWrapper.phtml:26
 msgid "(SRT, DFXP formats are supported)"
-msgstr "(SRT, DFXP format stöds)"
+msgstr "(SRT, DFXP är formaten som stöds för undertexter)"
 
 #: modules/captions/views/scripts/partials/chunk.phtml:11
 msgid "Select a file:"
@@ -6739,16 +6679,12 @@ msgid "Change"
 msgstr "Ändra"
 
 #: modules/captions/views/scripts/partials/chunk.phtml:18
-#, fuzzy
-#| msgid "Browse"
 msgid "Browse..."
-msgstr "Bläddra"
+msgstr "Bläddra…"
 
 #: modules/captions/views/scripts/partials/chunkUpload.phtml:15
-#, fuzzy
-#| msgid "Please fill all the fields!"
 msgid "Please fill all form fields."
-msgstr "Fyll i alla fälten!"
+msgstr "Fyll i alla fälten."
 
 #: modules/captions/views/scripts/partials/globalSearchResult.phtml:31
 #: modules/captions/views/scripts/partials/myMediaSearchResult.phtml:39
@@ -6763,7 +6699,7 @@ msgstr "uppladdad"
 #: modules/captions/views/scripts/partials/globalSearchResult.phtml:65
 #: modules/captions/views/scripts/partials/myMediaSearchResult.phtml:73
 msgid "Not published"
-msgstr "Opublicerad"
+msgstr "Ej publicerad"
 
 #: modules/captions/views/scripts/partials/noCaptions.phtml:11
 msgid "Your search for \"%1\" did not match any captioned videos."
@@ -6771,7 +6707,7 @@ msgstr "Din sökning för \"%1\" matchade inte några bildtext videor."
 
 #: modules/captions/views/scripts/partials/noCaptions.phtml:13
 msgid "Your search did not match any captioned videos."
-msgstr "Din sökning matchade inte några bildtext videor."
+msgstr "Din sökning matchade inte några videor med undertexter."
 
 #: modules/captions/views/scripts/partials/searchResultEntry.phtml:26
 #: modules/captions/views/scripts/search/categoryentry.ajax.phtml:40
@@ -6790,17 +6726,15 @@ msgstr "%1 I Video"
 
 #: modules/captions/views/scripts/search/entry.ajax.phtml:35
 msgid "No captions results were found"
-msgstr "Inga bildtext resultat hittades"
+msgstr "Inga undertext-resultat hittades"
 
 #: modules/captions/views/scripts/search/entry.phtml:13
 msgid "Search in video"
 msgstr "Sök i video"
 
 #: modules/captions/views/scripts/search/entry.phtml:16
-#, fuzzy
-#| msgid "Select a language"
 msgid "Select Captions Language"
-msgstr "Välj språk"
+msgstr "Välj språk för undertext"
 
 #: modules/captions/views/scripts/search/entry.phtml:23
 #: modules/channels/channeltopics/views/scripts/index/sidenav.phtml:11
@@ -6817,15 +6751,15 @@ msgstr ""
 
 #: modules/capturespace/views/scripts/launch/create.phtml:38
 msgid "Back to My Media"
-msgstr "Tillbaka till min media"
+msgstr "Tillbaka till Min media"
 
 #: modules/capturespace/views/scripts/launch/create.phtml:43
 msgid "Launching CaptureSpace"
-msgstr "Lansera CaptureSpace"
+msgstr "Startar CaptureSpace"
 
 #: modules/capturespace/views/scripts/launch/create.phtml:47
 msgid "CaptureSpace launched successfully"
-msgstr "CaptureSpace lanserades korrekt"
+msgstr "CaptureSpace startades framgångsrikt"
 
 #: modules/capturespace/views/scripts/partials/download.phtml:9
 msgid "The Kaltura CaptureSpace Desktop Recorder"
@@ -6837,18 +6771,20 @@ msgid ""
 "home or on-the-go with automated publishing and interactive viewing within "
 "the LMS and Kaltura's MediaSpace video portal."
 msgstr ""
-"Kaltura CaptureSpace Skrivbordsinspelare möjliggör enkelt intagande i "
-"klassen, hemma eller på vägen med automatisk publicering och interaktiv "
-"översikt med LMS och Kalturas MediaSpace video portal."
+"Kaltura CaptureSpace Skrivbordsinspelare möjliggör enkelt inspelning av "
+"lektionen, hemma eller på resande fot med automatisk publicering och "
+"interaktiv översikt med integrering i LMS och Kalturas MediaSpace "
+"videoportal."
 
 #: modules/capturespace/views/scripts/partials/download.phtml:11
 msgid ""
 "If you’ve already installed CaptureSpace, it will launch automatically. "
 msgstr ""
+"Om du redan har installerat CaptureSpace kommer det att starta automatiskt. "
 
 #: modules/capturespace/views/scripts/partials/download.phtml:17
 msgid "Using CaptureSpace for the first time?"
-msgstr ""
+msgstr "Använder du CaptureSpace för första gången?"
 
 #: modules/capturespace/views/scripts/partials/download.phtml:20
 #: modulesCustom/core/kwebcast/views/scripts/partials/install.phtml:12
@@ -6863,28 +6799,25 @@ msgid "Download for Mac"
 msgstr "Ladda ner för Mac"
 
 #: modules/capturespace/views/scripts/partials/download.phtml:26
-#, fuzzy
-#| msgid "Read more"
 msgid "Learn more"
-msgstr "Läs mer"
+msgstr "Lär dig mer"
 
 #: modules/capturespace/views/scripts/partials/download.phtml:27
 msgid ""
 "See the <a href=\"%1\" target=\"_blank\">Kaltura CaptureSpace - User Manual</"
 "a> for additional information on supported systems and usage instructions. "
 msgstr ""
+"Läs mer i <a href=”%1” target=”_blank”>Kaltura CaptureSpace - User Manual</"
+"a> för mer information om stöd för olika operativsystem och "
+"användarinstruktioner. "
 
 #: modules/capturespace/views/scripts/partials/download.phtml:33
-#, fuzzy
-#| msgid ""
-#| "To download the Kaltura CaptureSpace Desktop Recorder, please contact "
-#| "your sytem administrator."
 msgid ""
 "To download the Kaltura CaptureSpace Desktop Recorder, please contact your "
 "system administrator."
 msgstr ""
-"För att ladda ner Kaltura CaptureSpace Skrivbordsinspelare, var god kontakta "
-"din systemadministratör."
+"För att ladda ner Kaltura CaptureSpace Skrivbordsinspelare, var vänlig "
+"kontakta din systemadministratör."
 
 #: modules/category/categorymembers/views/scripts/index/add.dialog.phtml:14
 #: modules/channels/channelmembers/views/scripts/index/add.dialog.phtml:15
@@ -6913,7 +6846,7 @@ msgstr "Inställningar för medlemsskap"
 #: modules/category/categorymembers/views/scripts/index/index.phtml:15
 #: modules/channels/channelmembers/views/scripts/index/index.phtml:14
 msgid "Default Permission Level: "
-msgstr "Förinställd tillåtelsenivå: "
+msgstr "Förinställd rättighetsnivå: "
 
 #: modules/category/categorymembers/views/scripts/index/index.phtml:23
 #: modules/channels/channelmembers/views/scripts/index/index.phtml:23
@@ -6927,7 +6860,7 @@ msgstr "Lägg till ett gruppnamn"
 
 #: modules/category/categorymembers/views/scripts/index/index.phtml:37
 msgid "Inherit permissions from parent category"
-msgstr "Ärv tillstånd från föräldrakategorin"
+msgstr "Ärv rättigheter från föräldrakategorin"
 
 #: modules/category/categorymembers/views/scripts/index/index.phtml:68
 msgid "Import Members from Parent Category"
@@ -6967,7 +6900,7 @@ msgstr ""
 
 #: modules/category/categorymembers/views/scripts/index/inherit.dialog.phtml:31
 msgid "Inherit permission"
-msgstr "Ärv tillåtelser"
+msgstr "Ärv rättigheter"
 
 #: modules/category/categorymembers/views/scripts/index/setowner.dialog.phtml:7
 msgid ""
@@ -7053,7 +6986,7 @@ msgstr "Inga fler spellistor hittades på kanalen."
 
 #: modules/channelplaylists/views/scripts/channel/get-channel-playlists.ajax.phtml:24
 msgid "There are no more playlists."
-msgstr "Det finns inga fler spellistor"
+msgstr "Det finns inga fler spellistor."
 
 #: modules/channelplaylists/views/scripts/partials/channel/edit/filterBar.phtml:14
 msgid "View All Types"
@@ -7106,13 +7039,13 @@ msgstr "Inlägg"
 
 #: modules/channelplaylists/views/scripts/partials/channel/edit/playlistTable.phtml:34
 msgid "Copy Embed"
-msgstr "Inbäddad kopia"
+msgstr "Kopiera embed-kod"
 
 #: modules/channelplaylists/views/scripts/partials/channel/edit/playlistTable.phtml:54
 msgid "note that playlist is not saved and all changes will be discarded"
 msgstr ""
-"observera att spellistan inte sparas och alla ändringar kommer att bli "
-"förkastade"
+"observera att spellistan inte sparades och alla ändringar kommer att "
+"försvinna"
 
 #: modules/channelplaylists/views/scripts/partials/entries/entry.phtml:22
 msgid "Already on this playlist"
@@ -7209,8 +7142,8 @@ msgstr "Miniatyr uppladdad"
 msgid ""
 "Create chapters for the video, and upload slides to play along with video."
 msgstr ""
-"Skappa kapitel för videon, och ladda upp sidor som spelas upp tillsammans "
-"med videon."
+"Skapa kapitel för videon, och ladda upp sidor som spelas upp tillsammans med "
+"videon."
 
 #: modules/chapters/views/scripts/entry/edit.phtml:54
 #: modules/chapters/views/scripts/partials/deck-upload.phtml:45
@@ -7243,11 +7176,11 @@ msgstr "Tillbaka till tidslinjen"
 
 #: modules/chapters/views/scripts/full-deck/upload.dialog.phtml:12
 msgid "Deck upload"
-msgstr "Serie uppladdning"
+msgstr "Ladda upp serie"
 
 #: modules/chapters/views/scripts/partials/deck-upload.phtml:13
 msgid "Choose slides resolution:"
-msgstr "Välj upplösnig på sidorna:"
+msgstr "Välj upplösning på sidorna:"
 
 #: modules/chapters/views/scripts/partials/deck-upload.phtml:16
 msgid "Normal Resolution (1024x768)"
@@ -7263,8 +7196,9 @@ msgid ""
 "Note - once the upload and processing is done, the slides will be equally "
 "spread across the timeline for you to manually arrange them."
 msgstr ""
-"Observera - så fort uppladd och under behandling är gjord så kommer sidorna "
-"att spridas ut jämt över tidslinjen så att du kan arrangera dem manuellt."
+"Observera - så fort uppladdningen och konvertering är utförd, kommer sidorna "
+"att spridas ut jämt över tidslinjen så att du sedan kan arrangera dem "
+"manuellt."
 
 #: modules/chapters/views/scripts/partials/details/buttons.phtml:16
 msgid "Saved"
@@ -7277,7 +7211,7 @@ msgstr "Se i spelare"
 
 #: modules/chapters/views/scripts/partials/details/chapter.phtml:14
 msgid "Chapter Thumbnail"
-msgstr "Kapitel miniatyr"
+msgstr "Kapitel-miniatyr"
 
 #: modules/chapters/views/scripts/partials/details/chapter.phtml:17
 msgid "Auto"
@@ -7304,10 +7238,8 @@ msgid "Delete Chapter"
 msgstr "Radera kapitel"
 
 #: modules/chapters/views/scripts/partials/details/fulldeck.phtml:9
-#, fuzzy
-#| msgid "upload full deck"
 msgid "upload a full deck"
-msgstr "Ladda  upp hel serie"
+msgstr "ladda  upp hel serie"
 
 #: modules/chapters/views/scripts/partials/details/fulldeck.phtml:15
 msgid "Upload Deck"
@@ -7316,35 +7248,35 @@ msgstr "Ladda upp serie"
 #: modules/chapters/views/scripts/partials/details/fulldeck.phtml:31
 #: modules/chapters/views/scripts/partials/details/slide.phtml:32
 msgid "Slide image is a required field"
-msgstr "Sidbild är ett obligatoriskt fält"
+msgstr "Presentationsbild är ett obligatoriskt fält"
 
 #: modules/chapters/views/scripts/partials/details/slide.phtml:9
 msgid "upload a slide image"
-msgstr "Ladda upp en sidbild"
+msgstr "ladda upp en sidbild"
 
 #: modules/chapters/views/scripts/partials/details/slide.phtml:17
 msgid "Upload Slide"
-msgstr "Ladda upp sida"
+msgstr "Ladda upp bild (presentation)"
 
 #: modules/chapters/views/scripts/partials/details/slide.phtml:27
 msgid "replace slide"
-msgstr "Ersätt sida"
+msgstr "ersätt sida"
 
 #: modules/chapters/views/scripts/partials/details/slide.phtml:40
 msgid "Slide Information"
-msgstr "Sidinformation"
+msgstr "Bildinformation"
 
 #: modules/chapters/views/scripts/partials/details/slide.phtml:41
 msgid "Enter Slide Title"
-msgstr "Lägg till sidtitel"
+msgstr "Lägg till bildtitel"
 
 #: modules/chapters/views/scripts/partials/details/slide.phtml:42
 msgid "Enter Slide Description"
-msgstr "Lägg till sidbeskrivning"
+msgstr "Lägg till bildbeskrivning"
 
 #: modules/chapters/views/scripts/partials/details/slide.phtml:57
 msgid "Delete Slide"
-msgstr "Radera sida"
+msgstr "Radera bild"
 
 #: modules/chapters/views/scripts/partials/details/time-form.phtml:9
 msgid "Time and Tags"
@@ -7385,15 +7317,15 @@ msgstr "Skapa ett klipp från"
 
 #: modules/clipper/views/scripts/clip/index.phtml:66
 msgid "Set the range of your clip, complete the metadata and save:"
-msgstr "Ställ in ditt klipps räckvidd, kompettera metadatan och spara:"
+msgstr "Ställ in ditt klipps räckvidd, komplettera metadatan och spara:"
 
 #: modules/clipper/views/scripts/partials/clippAppConfig.phtml:19
 msgid "End-time must be larger than Start-time"
-msgstr "Sluttiden måste vara längre än starttiden"
+msgstr "Sluttiden måste vara högre än starttiden"
 
 #: modules/clipper/views/scripts/partials/clippAppConfig.phtml:20
 msgid "Clip duration must be at least 100ms"
-msgstr "Längden på klippet måste vara åtminstone 100min"
+msgstr "Längden på klippet måste vara åtminstone 100ms"
 
 #: modules/clipper/views/scripts/partials/clippAppConfig.phtml:21
 msgid "Are you sure you want to delete?"
@@ -7471,15 +7403,13 @@ msgid ""
 "Grabbing the embed code will make this media <strong>public to the world</"
 "strong> and override all entitlements defined in MediaSpace."
 msgstr ""
-"Att spela in den inbäddade koden kommer att göra denna media "
+"Att kopiera och sprida den inbäddade koden kommer att göra denna media "
 "<strong>offentlig för alla</strong> och skriva över alla rättigheter som "
 "definieras i MediaSpace."
 
 #: modules/embed/views/scripts/index/embed-tab-content.ajax.phtml:80
-#, fuzzy
-#| msgid "Embed Type"
 msgid "Embed Code"
-msgstr "Inbäddad typ"
+msgstr "Kod för inbäddning"
 
 #: modules/embed/views/scripts/index/embed-tab-content.ajax.phtml:97
 #: modules/embedplaylist/views/scripts/index/index.phtml:21
@@ -7497,7 +7427,7 @@ msgstr "Iframe"
 #: modules/embedplaylist/views/scripts/index/index.phtml:29
 #: modules/embedplaylist/views/scripts/partials/index.phtml:28
 msgid "Legacy"
-msgstr "Arv"
+msgstr "Gammal"
 
 #: modules/embed/views/scripts/index/embed-tab-content.ajax.phtml:127
 #: modulesCustom/core/eloqua/views/scripts/index/select-player.phtml:56
@@ -7521,13 +7451,13 @@ msgid ""
 "This Media is Private. In order to share this media via Email you have to "
 "Publish it to a Channel or make it Unlisted"
 msgstr ""
-"Denna media är privat. För att dela denna media via E-post måste du "
-"publicera den på en kanal eller göra den olistad"
+"Denna mediafil är privat. För att dela denna media via e-post måste du "
+"publicera den till en kanal eller sätt den som ”Ej listad”"
 
 #: modules/embed/views/scripts/index/index.ajax.phtml:37
 #: modules/embed/views/scripts/index/index.phtml:32
 msgid "Share this media via Email"
-msgstr "Dela den här median via e-post"
+msgstr "Dela den här mediafilen via e-post"
 
 #: modules/embed/views/scripts/secure/not-authenticated.phtml:7
 #: modules/embedplaylist/views/scripts/secure/not-authenticated.phtml:7
@@ -7550,16 +7480,17 @@ msgid ""
 "Playback of this content is only allowed on its original publishing "
 "destination. Please contact owner or support"
 msgstr ""
-"Playback av det här innehållet är inte tillåtet på dess originella "
-"publiceringsdestination. Var god kontakta ägare eller support"
+"Uppspelning av det här innehållet är inte tillåtet på dess ursprungliga "
+"publiceringsdestination. Var god kontakta ägare eller supporten"
 
 #: modules/embedplaylist/views/scripts/index/embed.dialog.phtml:8
 msgid ""
 "Note that the embedded playlist will not display any media that is private "
 "or restricted. <br/>Are you sure you want to continue?"
 msgstr ""
-"Notera att den inbäddade spellistan inte kommer att vis någon media som är "
-"privat eller begränsad. <br/>Är du säkr på att du vill fortsätta?"
+"Notera att den inbäddade spellistan inte kommer att visa någon media som är "
+"privat eller har begränsad åtkomst. <br/>Är du säker på att du vill "
+"fortsätta?"
 
 #: modules/embedplaylist/views/scripts/index/embed.dialog.phtml:24
 #: modules/embedplaylist/views/scripts/index/index-v2.dialog.phtml:21
@@ -7570,14 +7501,12 @@ msgstr "Inbäddad spellista"
 #: modules/embedplaylist/views/scripts/index/index.phtml:12
 #: modules/embedplaylist/views/scripts/partials/index-v2.phtml:15
 #: modules/embedplaylist/views/scripts/partials/index.phtml:14
-#, fuzzy
-#| msgid "Embed Type"
 msgid "Embed code"
-msgstr "Inbäddad typ"
+msgstr "Kod för inbäddning"
 
 #: modules/embedplaylist/views/scripts/index/index.phtml:14
 msgid "Hide embed code"
-msgstr ""
+msgstr "Göm kod för inbäddning"
 
 #: modules/embedplaylist/views/scripts/index/index.phtml:39
 #: modules/embedplaylist/views/scripts/partials/index.phtml:38
@@ -7645,11 +7574,11 @@ msgstr ""
 
 #: modules/entryTypes/liveentry/views/scripts/entry/edit-details-block.phtml:34
 msgid "Start Streaming"
-msgstr "Starta Streaming"
+msgstr "Starta streaming"
 
 #: modules/entryTypes/liveentry/views/scripts/entry/edit-details-block.phtml:36
 msgid "Stop Streaming"
-msgstr "Stoppa Streaming"
+msgstr "Stoppa streaming"
 
 #: modules/entryTypes/liveentry/views/scripts/entry/edit-details-block.phtml:46
 #: modulesCustom/core/kwebcast/views/scripts/entry/edit-details-block.phtml:36
@@ -7661,8 +7590,8 @@ msgid ""
 "Note: This is a manual live entry that is provisioned and streamed from an "
 "external application"
 msgstr ""
-"Observera: Detta är ett manuellt direktsänt inlägg som är proviantera och "
-"strömmad från en extern applikation"
+"Observera: Detta är ett manuellt direktsänt inlägg som tillhandahålls och "
+"strömmas från en extern applikation"
 
 #: modules/entryTypes/quiz/views/scripts/entry/edit-quiz.phtml:36
 msgid "Preview Quiz"
@@ -7674,22 +7603,22 @@ msgstr "Quiz förhandsgranskning"
 
 #: modules/entryTypes/quiz/views/scripts/partials/breadcrumbs.phtml:23
 msgid "Quiz Creator "
-msgstr "Quiz skapare "
+msgstr "Quiz-skapare "
 
 #: modules/entryTypes/quiz/views/scripts/partials/breadcrumbs.phtml:25
 msgid "Media Upload "
-msgstr "Media Uppladdning "
+msgstr "Uppladdning av mediafil "
 
 #: modules/entryTypes/quiz/views/scripts/partials/breadcrumbs.phtml:28
 msgid "Media Selection "
-msgstr "Mediaval "
+msgstr "Val av media "
 
 #: modules/entryTypes/quiz/views/scripts/partials/breadcrumbs.phtml:37
 msgid ""
 "Please select the media you would like the quiz to relate to. You can either "
 "select an existing media or upload a new one."
 msgstr ""
-"Välj den media som du vill att din quiz ska relatera till. Du kan antingen "
+"Välj den media som du vill att ditt quiz ska relatera till. Du kan antingen "
 "välja existerande media eller ladda upp en ny."
 
 #: modules/entryTypes/quiz/views/scripts/partials/entry.phtml:29
@@ -7721,8 +7650,8 @@ msgstr ""
 #: modules/entryTypes/videopresentations/views/scripts/partials/upload/documentBox.phtml:20
 msgid "Once your content is ready it will appear in the document list(step 2)."
 msgstr ""
-"Så fort ditt innehåll är färdigt så kommer det att synas i "
-"dokumentlistan(steg 2)."
+"Så fort ditt innehåll är färdigt så kommer det att synas i dokumentlistan "
+"(steg 2)."
 
 #: modules/entryTypes/videopresentations/views/scripts/partials/upload/documentBox.phtml:22
 msgid "Back to the video presentation creation flow (step 1)"
@@ -7730,17 +7659,17 @@ msgstr "Tillbaka till videopresentationen skapelseflöde (steg 1)"
 
 #: modules/entryTypes/videopresentations/views/scripts/partials/upload/kvpBox.phtml:14
 msgid "Add Video Presentation"
-msgstr "Lägg till video presentation"
+msgstr "Lägg till videopresentation"
 
 #: modules/entryTypes/videopresentations/views/scripts/partials/upload/kvpBox.phtml:19
 msgid "To create a Video Presentation, follow these steps"
-msgstr "Följ de här stegen för att skapa en video presentation"
+msgstr "Följ de här stegen för att skapa en videopresentation"
 
 #: modules/entryTypes/videopresentations/views/scripts/partials/upload/kvpBox.phtml:21
 msgid ""
 "Select media (from a list of already uploaded and ready video and audio "
 "items)"
-msgstr "Välj media (från en lista med redan uppladade video- och ljudföremål)"
+msgstr "Välj media (från en lista med redan uppladdade video- och ljudfiler)"
 
 #: modules/entryTypes/videopresentations/views/scripts/partials/upload/kvpBox.phtml:22
 msgid "Select document (from a list of uploaded, and converted documents)"
@@ -7749,14 +7678,15 @@ msgstr "Välj dokument (från en lista med uppladdade och konverterade dokument)
 #: modules/entryTypes/videopresentations/views/scripts/partials/upload/kvpBox.phtml:23
 msgid "Add sync points to synchronize the document with the media"
 msgstr ""
-"Lägg till synkroniserinpoäng för att synkronisera dokumentet med median"
+"Lägg till synkroniseringspunkter för att synkronisera dokumentet med "
+"mediafilen"
 
 #: modules/entryTypes/videopresentations/views/scripts/partials/upload/kvpBox.phtml:25
 msgid ""
 "In case you need to upload new documents to the server, use the upload "
 "document button below."
 msgstr ""
-"Om du behöver ladda upp nya dokument till servern, använd uppladda dokument "
+"Om du behöver ladda upp nya dokument till servern, använd Ladda upp dokument-"
 "knappen nedan."
 
 #: modules/entryTypes/videopresentations/views/scripts/partials/upload/kvpBox.phtml:26
@@ -7765,7 +7695,7 @@ msgid ""
 "where you will be able to sync keypoints for playback, and edit metadata."
 msgstr ""
 "Så fort en presentation skapas, kommer du att skickas vidare till \"redigera "
-"sidan\", där du kommer att kunna synka nyckelpoänger för playback och "
+"sidan\", där du kommer att kunna synka nyckelpunkter för uppspelning och "
 "redigera metadata."
 
 #: modules/entryTypes/webcast/views/scripts/partials/details.phtml:19
@@ -7774,7 +7704,7 @@ msgstr "Sändningstid"
 
 #: modules/entryTypes/webcast/views/scripts/partials/details.phtml:28
 msgid "Event Opens"
-msgstr "Händelse öppnar"
+msgstr "Händelse startar"
 
 #: modules/entryTypes/webcast/views/scripts/partials/details.phtml:35
 msgid "On"
@@ -7794,7 +7724,7 @@ msgstr "efter"
 
 #: modules/entryTypes/webcast/views/scripts/partials/details.phtml:41
 msgid "broadcast"
-msgstr "Sändning"
+msgstr "sändning"
 
 #: modules/entryTypes/webcast/views/scripts/partials/details.phtml:56
 msgid "On Demand Ends"
@@ -7811,7 +7741,7 @@ msgstr "Användarinformation"
 
 #: modules/entryTypes/youtube/views/scripts/entry/edit-entry-tabs.phtml:5
 msgid "Please set content id"
-msgstr "Ställ in innehållsid"
+msgstr "Ställ in innehålls-id"
 
 #: modules/entryTypes/youtube/views/scripts/entry/edit-entry-tabs.phtml:10
 msgid "Replace"
@@ -7831,47 +7761,35 @@ msgstr "Observera: Endast offentliga Youtube video stöds"
 
 #: modules/history/views/scripts/index/clear.dialog.phtml:17
 msgid "Clear all Watch History"
-msgstr ""
+msgstr "Rensa all tittar-historik"
 
 #: modules/history/views/scripts/index/index.phtml:4
-#, fuzzy
-#| msgid "Refresh Now"
 msgid "Refresh history"
-msgstr "Uppdatera nu"
+msgstr "Uppdatera historik nu"
 
 #: modules/history/views/scripts/index/index.phtml:30
-#, fuzzy
-#| msgid "Search Repository"
 msgid "Search My History"
-msgstr "Sök arkiv"
+msgstr "Sök i min historik"
 
 #: modules/history/views/scripts/partials/entry-deleted.phtml:2
 msgid "This item has been removed from your history."
-msgstr ""
+msgstr "Den här filen har tagits bort från din historik."
 
 #: modules/history/views/scripts/partials/entry.phtml:10
-#, fuzzy
-#| msgid "Remove from Playlist"
 msgid "Remove from Watch History"
-msgstr "Ta bort från spellistan"
+msgstr "Ta bort från tittar-historik"
 
 #: modules/history/views/scripts/partials/filter/date.phtml:3
-#, fuzzy
-#| msgid "All Statuses"
 msgid "All time"
-msgstr "Alla Status"
+msgstr "Alltid"
 
 #: modules/history/views/scripts/partials/filter/date.phtml:4
-#, fuzzy
-#| msgid "Last %u days"
 msgid "Last 7 Days"
-msgstr "Sista %u dagar"
+msgstr "Sista %u dagarna"
 
 #: modules/history/views/scripts/partials/filter/date.phtml:5
-#, fuzzy
-#| msgid "Last %u days"
 msgid "Last 30 Days"
-msgstr "Sista %u dagar"
+msgstr "Sista %u dagarna"
 
 #: modules/history/views/scripts/partials/filter/date.phtml:34
 #: modules/userreports/views/scripts/partials/fromToDatepicker.phtml:17
@@ -7884,19 +7802,15 @@ msgstr ""
 
 #: modules/history/views/scripts/partials/filter/watch-status.phtml:4
 msgid "Completed Watching"
-msgstr ""
+msgstr "Avslutad tittning"
 
 #: modules/history/views/scripts/partials/filter/watch-status.phtml:5
-#, fuzzy
-#| msgid "Start Streaming"
 msgid "Started Watching"
-msgstr "Starta Streaming"
+msgstr "Startade tittande"
 
 #: modules/history/views/scripts/partials/filterBar.phtml:30
-#, fuzzy
-#| msgid "Search Repository"
 msgid "Clear History"
-msgstr "Sök arkiv"
+msgstr "Rensa historik"
 
 #: modules/importchannel/views/scripts/partials/importChannelForm.phtml:7
 msgid "You must select a channel to import from"
@@ -7906,8 +7820,8 @@ msgstr "Du måste välja en kanal att importera från"
 msgid ""
 "Oops, it appears you do not have manager permissions in any other channel."
 msgstr ""
-"Hoppsan, det verkar som att du inte har tillåtelse från manager i någon "
-"annan kanal."
+"Hoppsan, det verkar som att du inte har tillåtelse från administratör i "
+"någon annan kanal."
 
 #: modules/importchannel/views/scripts/partials/importChannelForm.phtml:9
 msgid "Please contact your administrator."
@@ -7918,7 +7832,7 @@ msgid ""
 "It appears that none of the channels you manage contain any media assets to "
 "import."
 msgstr ""
-"Det verkar som att ingen av kanaler som du hanterar innehåller några "
+"Det verkar som att ingen av de kanaler som du hanterar innehåller några "
 "mediatillgångar som går att importer."
 
 #: modules/importchannel/views/scripts/partials/importScripts.phtml:20
@@ -7926,22 +7840,16 @@ msgid "Importing..."
 msgstr "Importerar..."
 
 #: modules/oembed/views/scripts/partials/pane.phtml:2
-#, fuzzy
-#| msgid "Embed"
 msgid "oEmbed Link"
-msgstr "Inbäddad"
+msgstr "oInbäddad"
 
 #: modules/oembed/views/scripts/partials/pane.phtml:10
-#, fuzzy
-#| msgid "Player Skin"
 msgid "Player Skin:"
-msgstr "Spelarens tema"
+msgstr "Spelarens tema:"
 
 #: modules/oembed/views/scripts/partials/pane.phtml:33
-#, fuzzy
-#| msgid "Player Size"
 msgid "Player Size:"
-msgstr "Videospelarens storlek"
+msgstr "Videospelarens storlek:"
 
 #: modules/publish/views/scripts/partials/badgeInfo.phtml:29
 msgid "Additional Categories:"
@@ -7949,7 +7857,7 @@ msgstr "Ytterligare kategorier:"
 
 #: modules/publish/views/scripts/partials/interface/entry.phtml:18
 msgid "You can publish the media to multiple categories and channels."
-msgstr "Du kan publicera median i flera kategorier och kanaler."
+msgstr "Du kan publicera mediafiler i flera kategorier och kanaler."
 
 #: modules/publish/views/scripts/partials/interface/upload.phtml:15
 msgid ""
@@ -7957,15 +7865,15 @@ msgid ""
 "publish it to categories or channels."
 msgstr ""
 "Komplettera alla de obligatoriska fälten och spara inlägget före du väljer "
-"att publicera det i kategorier eller kanaler"
+"att publicera det i kategorier eller kanaler."
 
 #: modules/publish/views/scripts/partials/interface/upload.phtml:16
 msgid ""
 " Note that the upload process needs to complete successfully for the "
 "\"Published\" option to be enabled."
 msgstr ""
-" Observera att uppladdningsprocessen behöver avslutas korrekt för att "
-"\"Publicerad\" alternativet möjliggörs."
+" Observera att uppladdningsprocessen behöver avslutas framgångsrikt för att "
+"\"Publicerad\" alternativet ska visas."
 
 #: modules/publish/views/scripts/partials/publish.phtml:13
 msgid "Publish in Category"
@@ -7981,7 +7889,7 @@ msgstr "Publicera i %1"
 
 #: modules/publish/views/scripts/partials/publish/channelsList.phtml:8
 msgid "Top Channels I Manage"
-msgstr "Toppkanaler som jag hanerar"
+msgstr "Toppkanaler som jag hanterar"
 
 #: modules/publish/views/scripts/partials/publish/channelsList.phtml:31
 msgid "More Channels"
@@ -8009,8 +7917,8 @@ msgid ""
 "Note that media will be unpublished from a moderated location (channel/"
 "category) and will remain published otherwise."
 msgstr ""
-"Observera att media kommer att sluta vara publicerad från en modererad plats "
-"(kanal/kategori) och kommer för övrigt att fortsätta vara publicerad."
+"Observera att media kommer att avpubliceras från en modererad plats (kanal/"
+"kategori) och kommer för övrigt att fortsätta vara publicerad."
 
 #: modules/replacemedia/views/scripts/partials/uploadBox.phtml:74
 #: modules/replacemedia/views/scripts/partials/uploadBox.phtml:93
@@ -8042,17 +7950,15 @@ msgstr "Godkänn URL"
 msgid ""
 "Supported protocols are: http, https, and ftp. If the URL is password "
 "protected,"
-msgstr "Stödda protkoll är: http, https och ftp. Om URL är lösenordsskyddat."
+msgstr "Stödda protkoll är: http, https och ftp. Om URL är lösenordsskyddat,"
 
 #: modules/saml/views/scripts/admin/generate-sp-certificate.dialog.phtml:32
 msgid "Certificate Generator"
-msgstr ""
+msgstr "Generator för certifikat"
 
 #: modules/saml/views/scripts/admin/generate-sp-certificate.dialog.phtml:42
-#, fuzzy
-#| msgid "Auto-Generate"
 msgid "Generate"
-msgstr "Automatisk generera"
+msgstr "Generera automatiskt"
 
 #: modules/scheduling/views/scripts/entry/entry-data.phtml:14
 msgid "Available to view"
@@ -8073,11 +7979,11 @@ msgstr "Tills: "
 
 #: modules/screencapture/views/scripts/index/add-video.ajax.phtml:12
 msgid "You already added this video in the past. Please choose another."
-msgstr "Du har redan lagt till den här videon. Välj en annan."
+msgstr "Du har redan lagt till den här videon tidigare. Välj en annan."
 
 #: modules/screencapture/views/scripts/index/add-video.ajax.phtml:16
 msgid "Please make sure that the url is valid, and the checkbox is selected"
-msgstr "Säkerställ att denna url är godkänd, och att rutan är vald"
+msgstr "Säkerställ att denna url är giltig, och att kryssrutan är vald"
 
 #: modules/screencapture/views/scripts/index/add-video.ajax.phtml:46
 msgid "Your Screen Recording video will be imported and converted."
@@ -8097,11 +8003,13 @@ msgstr "För att skapa en skärminspelning, följ de här stegen:"
 
 #: modules/screencapture/views/scripts/index/add.phtml:30
 msgid "Click on the button to launch the Screen Recorder"
-msgstr "Klicka på knappen för att lansera skärminspelaren"
+msgstr "Klicka på knappen för att starta skärminspelaren"
 
 #: modules/screencapture/views/scripts/index/add.phtml:31
 msgid "Select the options, area to capture and click the Record button"
-msgstr "Välj alternativen, inspelningsområde och klicka på inspelningsknappen"
+msgstr ""
+"Välj bland alternativen, välj inspelningsområde på skärmen och klicka sedan "
+"på inspelningsknappen"
 
 #: modules/screencapture/views/scripts/index/add.phtml:32
 msgid ""
@@ -8116,99 +8024,97 @@ msgid ""
 "After the upload is complete you will be able to enter the metadata for the "
 "entry and save it"
 msgstr ""
-"Efter uppladdning är färdig kommer du att kunna lägga till metadata för "
-"inlägget och spara det"
+"Efter uppladdning är färdig kommer du att kunna lägga till metadata (t.ex. "
+"titel, beskrivning och åtkomst) för inlägget och spara det"
 
 #: modules/screencapture/views/scripts/index/add.phtml:46
 msgid "Launch the screen recorder"
-msgstr "Lansera skärminspelaren"
+msgstr "Starta skärminspelaren"
 
 #: modules/screencapture/views/scripts/index/add.phtml:53
 msgid ""
 "It might take up to 1 or 2 minutes to load the applet, depending on the "
 "installed Java version"
 msgstr ""
-"Det kan ta upp till 1 eller 2 minuter för att ladda upp appletprogrammet, "
-"beroende på den installerade Java versionen"
+"Det kan ta upp till 1 eller 2 minuter för att ladda upp programmet, beroende "
+"på den installerade Java versionen"
 
 #: modules/thumbnails/views/scripts/index/capture.ajax.phtml:9
 msgid "Thumbnail has been captured"
-msgstr "Miniatyr har fångats in"
+msgstr "Miniatyrbild har skapats"
 
 #: modules/thumbnails/views/scripts/index/capture.ajax.phtml:45
 #: modules/thumbnails/views/scripts/index/post-upload.ajax.phtml:37
 msgid "Thumbnail capture failed"
-msgstr "Infångande av miniatyr misslyckades"
+msgstr "Skapande av miniatyrbild misslyckades"
 
 #: modules/thumbnails/views/scripts/index/generate.dialog.phtml:34
 msgid "Select one of the Thumbnails"
-msgstr "Välj en utav miniatyrerna"
+msgstr "Välj en utav miniatyrbilderna"
 
 #: modules/thumbnails/views/scripts/index/index.ajax.phtml:10
 #, php-format
 msgid "%sNote: %s By using %sUpload%s"
-msgstr "%sNotera: %s Genom att använda %sUppladda%s"
+msgstr "%sNotera: %s Genom att använda %sLadda upp%s"
 
 #: modules/thumbnails/views/scripts/index/index.ajax.phtml:12
 #, php-format
 msgid ", %sCapture%s"
-msgstr ", %sFånga in%s"
+msgstr ", %sSpela in%s"
 
 #: modules/thumbnails/views/scripts/index/index.ajax.phtml:15
 #, php-format
 msgid " or %sAuto-Generate%s "
-msgstr " eller %sGenerea automatisk%s "
+msgstr " eller %sGenerera automatisk%s "
 
 #: modules/thumbnails/views/scripts/index/index.ajax.phtml:17
-#, fuzzy, php-format
-#| msgid ""
-#| " you will set the default thumbnail as the selected one. If you need to "
-#| "backup your current thumbnail, you can %sDownload%s it."
+#, php-format
 msgid ""
 " you will set the default thumbnail as the selected one. If you need to "
 "backup your current thumbnail, you can %sDownload%s it."
 msgstr ""
-" Du kommer att ställa in den ursprungliga miniatyren som den valda. Om du "
-"behöver uppbackning för din nuvarande miniatyr så kan du%Ladda ner\" den."
+" Du kommer att ställa in den standard-miniatyrbilden som den valda. Om du "
+"behöver göra en backup för din nuvarande miniatyrbild så kan du %sLadda ner"
+"%s den."
 
 #: modules/thumbnails/views/scripts/index/index.ajax.phtml:45
 msgid "Capture"
-msgstr "Fånga in"
+msgstr "Spela in"
 
 #: modules/thumbnails/views/scripts/index/index.ajax.phtml:52
 msgid "Auto-Generate"
-msgstr "Automatisk generera"
+msgstr "Generera automatiskt"
 
 #: modules/thumbnails/views/scripts/index/index.ajax.phtml:71
 msgid "No thumbnail was uploaded for this event"
-msgstr "Ingen miniatyr blev uppladdad för den här händelsen"
+msgstr "Ingen miniatyrbild blev uppladdad för den här händelsen"
 
 #: modules/thumbnails/views/scripts/index/index.ajax.phtml:88
 msgid ""
 "Upload a thumbnail from your desktop and use it as the default thumbnail"
 msgstr ""
-"Ladda upp en miniatyr från ditt skrivbord och använd den som din "
-"ursprungsminiatyr"
+"Ladda upp en miniatyrbild från ditt skrivbord och använd den som din "
+"miniatyrbild"
 
 #: modules/thumbnails/views/scripts/index/index.ajax.phtml:94
 msgid ""
 "Use the above player to to seek the frame you would like to use as your "
 "default thumbnail and then click on the Capture button."
 msgstr ""
-"Använd ovan spelare för at söka ramen som du vill använda som "
-"ursprungsminiatyr, och klicka sedan på fånga in knappen."
+"Använd spelaren ovan för at söka bildrutan som du vill använda som "
+"miniatyrbild, och klicka sedan på Spela in-knappen."
 
 #: modules/thumbnails/views/scripts/index/index.ajax.phtml:102
 msgid ""
 "Select one thumbnail from ten automatically generated thumbnails of this "
 "video and set it as the default thumbnail."
 msgstr ""
-"Välj en av tio automatiskt genererade miniatyrer för den här videon och "
-"ställ in den som ursprungsminiatyr."
+"Välj en av tio automatiskt genererade miniatyrbilder för den här videon och "
+"ställ in den som förvald miniatyrbild."
 
 #: modules/thumbnails/views/scripts/partials/thumbnail.phtml:5
 msgid "Thumbnail for media"
-msgstr "Minitatyr för media"
+msgstr "Minitatyrbild för media"
 
 #: modules/userreports/views/scripts/categories/index.ajax.phtml:22
 msgid "There are no more categories."
@@ -8231,7 +8137,7 @@ msgstr "Det finns inte fler användare."
 
 #: modules/userreports/views/scripts/contribution/mediaspecificuser-print.phtml:8
 msgid "Contributor Media Content Drop Off"
-msgstr "Medarbetare media innehåll nerrullning"
+msgstr "Bortfall för Medarbetares mediainnehåll"
 
 #: modules/userreports/views/scripts/contribution/print.phtml:8
 msgid "User Contribution Report"
@@ -8239,11 +8145,11 @@ msgstr "Användar tilläggsrapport"
 
 #: modules/userreports/views/scripts/engagement/mediaspecificuser-print.phtml:8
 msgid "User Media Content Drop Off"
-msgstr "Använd media innehåll nerrullning av"
+msgstr "Bortfall för Användes mediainnehåll"
 
 #: modules/userreports/views/scripts/engagement/print.phtml:8
 msgid "User Engagement Report"
-msgstr "Använd evenemangsrapport"
+msgstr "Använd aktivitetsrapport"
 
 #: modules/userreports/views/scripts/index/entry.phtml:18
 msgid "Analytics for media"
@@ -8255,17 +8161,17 @@ msgstr "Analysverktyg för kanal"
 
 #: modules/userreports/views/scripts/media/print.phtml:8
 msgid "Media Items Report"
-msgstr "Mediaföremål rapport"
+msgstr "Rapport mediafiler"
 
 #: modules/userreports/views/scripts/media/usercontentdropoff-print.phtml:8
 msgid "User Content Dropoff Report"
-msgstr "Användar innehåll nerrullningsrapport"
+msgstr "Användar innehåll bortfallsrapport"
 
 #: modules/userreports/views/scripts/partials/categories/index.phtml:24
 #: modules/userreports/views/scripts/partials/channels/index.phtml:10
 #: modules/userreports/views/scripts/partials/users/index.phtml:26
 msgid "Plays to Visits Ratio"
-msgstr "Uppspelningar till besökskvot"
+msgstr "Uppspelningar/besökskvot"
 
 #: modules/userreports/views/scripts/partials/categories/index.phtml:25
 #: modules/userreports/views/scripts/partials/channels/index.phtml:11
@@ -8297,7 +8203,7 @@ msgstr "Ingen information"
 
 #: modules/userreports/views/scripts/partials/dashboard/entry.phtml:14
 msgid "General Metrics"
-msgstr "Allmänna metriker"
+msgstr "Övergripande statistik för mediafilen"
 
 #: modules/userreports/views/scripts/partials/dashboard/entry.phtml:22
 msgid "Avg Score"
@@ -8309,7 +8215,7 @@ msgstr "observera att poängens information inte ändras per tidsfilter"
 
 #: modules/userreports/views/scripts/partials/dashboard/entry.phtml:37
 msgid "View Drop Off"
-msgstr "Se nerrullning"
+msgstr "Se bortfall"
 
 #: modules/userreports/views/scripts/partials/dashboard/entry.phtml:41
 msgid "Avg View Time"
@@ -8317,7 +8223,7 @@ msgstr "Genomsnittlig visningstid"
 
 #: modules/userreports/views/scripts/partials/dashboard/entry.phtml:88
 msgid "Top Plays In Channels"
-msgstr "Topp spelade i kanalerna"
+msgstr "Topplista spelade mediafiler i kanalerna"
 
 #: modules/userreports/views/scripts/partials/dashboard/entry.phtml:89
 #: modules/userreports/views/scripts/partials/dashboard/entry.phtml:98
@@ -8341,23 +8247,23 @@ msgstr "Topp aktiva användare"
 
 #: modules/userreports/views/scripts/partials/dashboard/index.phtml:11
 msgid "Media Items"
-msgstr "Mediaföremål"
+msgstr "Mediafiler"
 
 #: modules/userreports/views/scripts/partials/dashboard/index.phtml:13
 msgid "number of media in this channel"
-msgstr "antal media i den här kanalen"
+msgstr "antal mediafiler i den här kanalen"
 
 #: modules/userreports/views/scripts/partials/dashboard/index.phtml:17
 msgid ""
 "number of media pages that were loaded, but not necessarily played, in this "
 "channel"
 msgstr ""
-"antal media sidor som laddades, men inte som nödvändigtvis spelades upp, på "
+"antal mediasidor som laddades, men inte som nödvändigtvis spelades upp, i "
 "den här kanalen"
 
 #: modules/userreports/views/scripts/partials/dashboard/index.phtml:20
 msgid "Viewed"
-msgstr "Visad"
+msgstr "Visade"
 
 #: modules/userreports/views/scripts/partials/dashboard/index.phtml:22
 msgid "number of plays counted across the viewed ones, in this channel"
@@ -8381,7 +8287,7 @@ msgstr "antal användare som laddade upp media på den här kanalen"
 
 #: modules/userreports/views/scripts/partials/dashboard/index.phtml:49
 msgid "number of users that contributed media to this channel"
-msgstr "antal användare som bidragit med media på den här kanalen"
+msgstr "antal användare som bidragit med media i den här kanalen"
 
 #: modules/userreports/views/scripts/partials/dashboard/index.phtml:66
 msgid "Top Contributors"
@@ -8464,7 +8370,7 @@ msgstr "Utskriftsvänlig version"
 
 #: modules/userreports/views/scripts/quiz-questions/index.ajax.phtml:25
 msgid "There are no more questions."
-msgstr "Detfinns inga fler frågor."
+msgstr "Det finns inga fler frågor."
 
 #: modules/userreports/views/scripts/quiz-users/print-drill-down.phtml:47
 msgid "User Answered "
@@ -8476,7 +8382,7 @@ msgstr "Topp användarrapport"
 
 #: modules/v2ui/views/scripts/partials/channel/poster.phtml:98
 msgid "Channel Thumbnail"
-msgstr "Kanal miniatyr"
+msgstr "Miniatyr för kanal"
 
 #: modulesCustom/core/eloqua/views/scripts/index/configurationurl.ajax.phtml:25
 #: modulesCustom/core/kaf/browseandembed/views/scripts/index/index.ajax.phtml:18
@@ -8508,7 +8414,7 @@ msgstr "Namn:"
 
 #: modulesCustom/core/events/views/scripts/partials/presenter-form.phtml:32
 msgid "Presenter's Name"
-msgstr "Prensenterarens namn"
+msgstr "Prensentatörens namn"
 
 #: modulesCustom/core/events/views/scripts/partials/presenter-form.phtml:37
 msgid "Link:"
@@ -8516,7 +8422,7 @@ msgstr "Länk:"
 
 #: modulesCustom/core/events/views/scripts/partials/presenter-form.phtml:41
 msgid "External Link to Presenter's info"
-msgstr "Extern länk till prensenterarens information"
+msgstr "Extern länk till presentatörens information"
 
 #: modulesCustom/core/events/views/scripts/partials/presenter-form.phtml:47
 msgid "Title:"
@@ -8524,7 +8430,7 @@ msgstr "Titel:"
 
 #: modulesCustom/core/events/views/scripts/partials/presenter-form.phtml:51
 msgid "Presenter's Title"
-msgstr "Presenterarens titel"
+msgstr "Presentatörens titel"
 
 #: modulesCustom/core/events/views/scripts/partials/presenter-form.phtml:56
 msgid "Bio:"
@@ -8532,36 +8438,36 @@ msgstr "Bio:"
 
 #: modulesCustom/core/events/views/scripts/partials/presenter-form.phtml:58
 msgid "Presenter's Biography"
-msgstr "Presenterarens biografi"
+msgstr "Presentatörens biografi"
 
 #: modulesCustom/core/events/views/scripts/partials/presenter-form.phtml:62
 msgid "Image:"
-msgstr "Bild"
+msgstr "Bild:"
 
 #: modulesCustom/core/events/views/scripts/partials/presenter-form.phtml:98
 msgid "Save Presenter"
-msgstr "Spara presenterare"
+msgstr "Spara presentatör"
 
 #: modulesCustom/core/events/views/scripts/partials/presenter-form.phtml:98
 msgid "Update Presenter"
-msgstr "Uppdatera presenterare"
+msgstr "Uppdatera presentatör"
 
 #: modulesCustom/core/events/views/scripts/partials/presenters-index.phtml:23
 msgid "Add a presenter"
-msgstr "Lägg till presenterare"
+msgstr "Lägg till presentatör"
 
 #: modulesCustom/core/events/views/scripts/partials/presenters-index.phtml:35
 msgid ""
 "Presenter (PRESENTER)`s information will be removed from this webcast.</"
 "br>Are you sure you want to continue?"
 msgstr ""
-"Presenterare (PRESENTERARES) information kommer att raderas från den här "
-"webbutsändningen.</br>Är du säker på att du vill fortsätta?"
+"Presentatör information kommer att raderas från den här webbutsändningen.</"
+"br>Är du säker på att du vill fortsätta?"
 
 #: modulesCustom/core/kaf/browseandembed/views/scripts/index/coursegallery.ajax.phtml:31
 #: modulesCustom/core/kaf/browseandembed/views/scripts/index/index.phtml:42
 msgid "Media Galleries"
-msgstr "Media gallerier"
+msgstr "Mediagallerier"
 
 #: modulesCustom/core/kaf/browseandembed/views/scripts/index/embed-with-params.dialog.phtml:21
 msgid "Yes, please"
@@ -8573,7 +8479,7 @@ msgstr "Nej, tack"
 
 #: modulesCustom/core/kaf/browseandembed/views/scripts/index/embed.phtml:14
 msgid "Embedded Media Options"
-msgstr "Inbäddade media alternativ"
+msgstr "Alternativ för inbäddad media"
 
 #: modulesCustom/core/kaf/browseandembed/views/scripts/index/embed.phtml:96
 msgid "Metadata:"
@@ -8621,8 +8527,8 @@ msgid ""
 "Kaltura application. To resolve this issue, please update your settings to "
 "allow 3rd party cookies."
 msgstr ""
-"Det verkar som att din webbläsare blockerar 3e part %1 vilket behövs för "
-"Kaltura applikationen. För  att lösa det här problemet, vargod uppdatera "
+"Det verkar som att din webbläsare blockerar 3e part %1 vilket behövs för att "
+"visa innehåll i Kaltura. För  att lösa det här problemet, var god uppdatera "
 "dina inställningar så att dessa tillåter cookies från 3e part."
 
 #: modulesCustom/core/kaf/hostedfeaturedmedia/views/scripts/index/index.phtml:93
@@ -8671,7 +8577,7 @@ msgstr "Det finns inga webcast händelser."
 
 #: modulesCustom/core/kwebcast/views/scripts/partials/advancedOptionsTab.phtml:20
 msgid "Audio / Video Stream Origin"
-msgstr "Ljud- / Videoströmning Ursprung"
+msgstr "Ljud- / Videoströmning ursprung"
 
 #: modulesCustom/core/kwebcast/views/scripts/partials/advancedOptionsTab.phtml:22
 msgid "Your selection was saved"
@@ -8683,11 +8589,11 @@ msgstr "Primär URL"
 
 #: modulesCustom/core/kwebcast/views/scripts/partials/advancedOptionsTab.phtml:40
 msgid "Backup URL"
-msgstr "Uppbacknings URL"
+msgstr "Backup URL"
 
 #: modulesCustom/core/kwebcast/views/scripts/partials/advancedOptionsTab.phtml:43
 msgid "Stream Name"
-msgstr "Strömma namn"
+msgstr "Namn på ström"
 
 #: modulesCustom/core/kwebcast/views/scripts/partials/advancedOptionsTab.phtml:48
 msgid "Export XML for FMLE"
@@ -8748,7 +8654,7 @@ msgstr "Uppladda resurser CSV-fil"
 
 #: modulesCustom/core/recscheduling/views/scripts/index/edit-event.ajax.phtml:16
 msgid "Error: Resource Conflict"
-msgstr ""
+msgstr "Fel: Konflikt mellan resurser"
 
 #: modulesCustom/core/recscheduling/views/scripts/index/edit-event.ajax.phtml:22
 msgid ""
@@ -8756,10 +8662,14 @@ msgid ""
 "means changes to the series will no longer apply to this occurrence. \n"
 "Would you like to Save your changes?"
 msgstr ""
+"Ändringar gjordes för en enskild händelse i serien. Om du sparar denna "
+"ändring betyder det att ändringar i serien inte kommer att gälla denna "
+"händelse. \n"
+"Vill du spara dina ändringar?"
 
 #: modulesCustom/core/recscheduling/views/scripts/index/edit-event.ajax.phtml:24
 msgid "Don't Save"
-msgstr ""
+msgstr "Spara inte"
 
 #: modulesCustom/core/recscheduling/views/scripts/index/edit-event.ajax.phtml:38
 msgid "Save Event"
@@ -8772,17 +8682,15 @@ msgstr "Redigera händelse"
 
 #: modulesCustom/core/recscheduling/views/scripts/index/edit-event.phtml:43
 msgid "Event created successfully."
-msgstr "Händelse skapad utan problem."
+msgstr "Händelse skapad utan framgångsrikt."
 
 #: modulesCustom/core/recscheduling/views/scripts/index/edit-event.phtml:51
 msgid "You are viewing a single occurrence that is part of a series."
 msgstr "Du ser en enskild händelse som är en del av en serie."
 
 #: modulesCustom/core/recscheduling/views/scripts/index/edit-event.phtml:53
-#, fuzzy
-#| msgid "Go to series."
 msgid "Go to series"
-msgstr "Gå till serier."
+msgstr "Gå till serier"
 
 #: modulesCustom/core/recscheduling/views/scripts/index/edit-event.phtml:56
 msgid "You are viewing an event series."
@@ -8793,16 +8701,16 @@ msgid ""
 "This occurrence is an exception to the series. Changes made to the series "
 "will not apply to this occurrence."
 msgstr ""
+"Den här händelsen är ett undantag för serien. Ändringar i serien kommer inte "
+"att påverka den här händelsen."
 
 #: modulesCustom/core/recscheduling/views/scripts/index/edit-event.phtml:80
 msgid "Are you sure you want to delete the entire series?"
 msgstr "Är du säker att du vill radera hela serien?"
 
 #: modulesCustom/core/recscheduling/views/scripts/index/edit-event.phtml:83
-#, fuzzy
-#| msgid "Are you sure you want to delete this comment?"
 msgid "Are you sure you want to delete this occurrence?"
-msgstr "Är du säker på att du vill radera den här kommentaren?"
+msgstr "Är du säker på att du vill radera den här händelsen?"
 
 #: modulesCustom/core/recscheduling/views/scripts/index/edit-event.phtml:86
 msgid "Are you sure you want to delete this event?"
@@ -8848,16 +8756,16 @@ msgid ""
 "The resource is unavailable at the selected time. Please see a list of "
 "conflicting events below."
 msgstr ""
+"Resursen är inte tillgänglig för den valda tiden. Vänligen titta på listan "
+"över konflikter mellan händelserna nedan."
 
 #: modulesCustom/core/recscheduling/views/scripts/partials/resourceConflicts.phtml:30
-#, fuzzy
-#| msgid "There are no webcast events."
 msgid "There are additional conflicting events."
-msgstr "Det finns inga webcast händelser."
+msgstr "Det finns ytterligare konflikter mellan händelser."
 
 #: modulesCustom/core/recscheduling/views/scripts/partials/resourceConflicts.phtml:34
 msgid "Please select a different resource or time to save the event."
-msgstr ""
+msgstr "Vänligen välj en annan resurs eller tid för att spara händelsen."
 
 #: modulesCustom/core/recscheduling/views/scripts/partials/upload.phtml:14
 msgid "Select a CSV file:"
