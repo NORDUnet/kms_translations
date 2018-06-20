@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: KMS 5.44.01\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-02 10:20+0300\n"
-"PO-Revision-Date: 2018-06-20 14:29+0200\n"
+"PO-Revision-Date: 2018-06-20 15:08+0200\n"
 "Last-Translator: Ziv Hundert <ziv.hundert@kaltura.com>\n"
 "Language-Team: \n"
 "Language: sv\n"
@@ -3796,7 +3796,7 @@ msgstr "Mediasidan kommer att vara synlig för alla som har en länk till sidan.
 
 #: modules/publish/models/Backend/Plugin/Unlisted.php:79
 msgid "Media successfully set to Unlisted"
-msgstr "Mediafil framgångsrikt inställd som ”Ej listad”"
+msgstr "Mediafil framgångsrikt inställd som Ej listad"
 
 #: modules/publish/models/Interface/Entry.php:141
 msgid "Appears In"
@@ -3865,7 +3865,7 @@ msgstr "Media publicerades / avpublicerades framgångsrikt"
 
 #: modules/publish/models/SaveUtil.php:120
 msgid "Media successfully set to Private"
-msgstr "Media framgångsrikt inställd som ”privat”"
+msgstr "Media framgångsrikt inställd som privat"
 
 #: modules/publish/views/helpers/Publish.php:24
 msgid ""
@@ -7452,7 +7452,7 @@ msgid ""
 "Publish it to a Channel or make it Unlisted"
 msgstr ""
 "Denna mediafil är privat. För att dela denna media via e-post måste du "
-"publicera den till en kanal eller sätt den som ”Ej listad”"
+"publicera den till en kanal eller sätt den som Ej listad"
 
 #: modules/embed/views/scripts/index/index.ajax.phtml:37
 #: modules/embed/views/scripts/index/index.phtml:32
